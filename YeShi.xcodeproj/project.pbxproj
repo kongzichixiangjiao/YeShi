@@ -7,13 +7,184 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94ABFCB51F21E09B009074BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCB41F21E09B009074BB /* AppDelegate.swift */; };
-		94ABFCB71F21E09B009074BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCB61F21E09B009074BB /* ViewController.swift */; };
-		94ABFCBA1F21E09B009074BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCB81F21E09B009074BB /* Main.storyboard */; };
-		94ABFCBC1F21E09B009074BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCBB1F21E09B009074BB /* Assets.xcassets */; };
-		94ABFCBF1F21E09B009074BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCBD1F21E09B009074BB /* LaunchScreen.storyboard */; };
 		94ABFCCA1F21E09B009074BB /* YeShiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCC91F21E09B009074BB /* YeShiTests.swift */; };
 		94ABFCD51F21E09B009074BB /* YeShiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCD41F21E09B009074BB /* YeShiUITests.swift */; };
+		94ABFDC21F21E11F009074BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCE21F21E11F009074BB /* Assets.xcassets */; };
+		94ABFDC31F21E11F009074BB /* YYAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCE51F21E11F009074BB /* YYAlertViewController.swift */; };
+		94ABFDC41F21E11F009074BB /* YYBaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCE61F21E11F009074BB /* YYBaseCollectionViewController.swift */; };
+		94ABFDC51F21E11F009074BB /* YYBaseImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCE71F21E11F009074BB /* YYBaseImagePickerController.swift */; };
+		94ABFDC61F21E11F009074BB /* YYBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCE81F21E11F009074BB /* YYBaseTableViewController.swift */; };
+		94ABFDC71F21E11F009074BB /* YYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCE91F21E11F009074BB /* YYBaseViewController.swift */; };
+		94ABFDC81F21E11F009074BB /* YYBaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCEC1F21E11F009074BB /* YYBaseNavigationView.swift */; };
+		94ABFDC91F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCED1F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib */; };
+		94ABFDCA1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCEE1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib */; };
+		94ABFDCB1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCEF1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib */; };
+		94ABFDCC1F21E11F009074BB /* YYBaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCF01F21E11F009074BB /* YYBaseCollectionView.swift */; };
+		94ABFDCD1F21E11F009074BB /* YYBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCF11F21E11F009074BB /* YYBaseTableViewCell.swift */; };
+		94ABFDCE1F21E11F009074BB /* YYBaseTableViewFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCF21F21E11F009074BB /* YYBaseTableViewFooterView.swift */; };
+		94ABFDCF1F21E11F009074BB /* YYBaseTableViewFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCF31F21E11F009074BB /* YYBaseTableViewFooterView.xib */; };
+		94ABFDD01F21E11F009074BB /* YYBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCF41F21E11F009074BB /* YYBaseView.swift */; };
+		94ABFDD11F21E11F009074BB /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCF71F21E11F009074BB /* Bundle+Extension.swift */; };
+		94ABFDD21F21E11F009074BB /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCF81F21E11F009074BB /* CGFloat+Extension.swift */; };
+		94ABFDD31F21E11F009074BB /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCF91F21E11F009074BB /* NSMutableAttributedString+Extension.swift */; };
+		94ABFDD41F21E11F009074BB /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCFA1F21E11F009074BB /* NSObject+Extension.swift */; };
+		94ABFDD51F21E11F009074BB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCFB1F21E11F009074BB /* String+Extension.swift */; };
+		94ABFDD61F21E11F009074BB /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCFC1F21E11F009074BB /* UIColor+Extension.swift */; };
+		94ABFDD71F21E11F009074BB /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCFD1F21E11F009074BB /* UIImage+Extension.swift */; };
+		94ABFDD81F21E11F009074BB /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCFE1F21E11F009074BB /* UITableViewCell+Extension.swift */; };
+		94ABFDD91F21E11F009074BB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCFF1F21E11F009074BB /* UIView+Extension.swift */; };
+		94ABFDDA1F21E11F009074BB /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD001F21E11F009074BB /* URL+Extension.swift */; };
+		94ABFDDB1F21E11F009074BB /* IMG_0361.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD021F21E11F009074BB /* IMG_0361.jpg */; };
+		94ABFDDC1F21E11F009074BB /* IMG_0407.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD031F21E11F009074BB /* IMG_0407.jpg */; };
+		94ABFDDD1F21E11F009074BB /* IMG_0487.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD041F21E11F009074BB /* IMG_0487.jpg */; };
+		94ABFDDE1F21E11F009074BB /* IMG_0490.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD051F21E11F009074BB /* IMG_0490.jpg */; };
+		94ABFDDF1F21E11F009074BB /* IMG_2473.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD061F21E11F009074BB /* IMG_2473.jpg */; };
+		94ABFDE01F21E11F009074BB /* IMG_2478.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD071F21E11F009074BB /* IMG_2478.jpg */; };
+		94ABFDE11F21E11F009074BB /* IMG_2719.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD081F21E11F009074BB /* IMG_2719.jpg */; };
+		94ABFDE21F21E11F009074BB /* IMG_2772.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD091F21E11F009074BB /* IMG_2772.jpg */; };
+		94ABFDE31F21E11F009074BB /* IMG_2787.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0A1F21E11F009074BB /* IMG_2787.jpg */; };
+		94ABFDE41F21E11F009074BB /* IMG_2898.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0B1F21E11F009074BB /* IMG_2898.jpg */; };
+		94ABFDE51F21E11F009074BB /* IMG_3026.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0C1F21E11F009074BB /* IMG_3026.jpg */; };
+		94ABFDE61F21E11F009074BB /* IMG_3027.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0D1F21E11F009074BB /* IMG_3027.jpg */; };
+		94ABFDE71F21E11F009074BB /* IMG_3065.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0E1F21E11F009074BB /* IMG_3065.jpg */; };
+		94ABFDE81F21E11F009074BB /* IMG_3091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0F1F21E11F009074BB /* IMG_3091.jpg */; };
+		94ABFDE91F21E11F009074BB /* IMG_3260.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD101F21E11F009074BB /* IMG_3260.JPG */; };
+		94ABFDEA1F21E11F009074BB /* IMG_3269.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD111F21E11F009074BB /* IMG_3269.JPG */; };
+		94ABFDEB1F21E11F009074BB /* IMG_3278.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD121F21E11F009074BB /* IMG_3278.jpg */; };
+		94ABFDEC1F21E11F009074BB /* IMG_8227.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD131F21E11F009074BB /* IMG_8227.JPG */; };
+		94ABFDED1F21E11F009074BB /* IMG_8235.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD141F21E11F009074BB /* IMG_8235.JPG */; };
+		94ABFDEE1F21E11F009074BB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD151F21E11F009074BB /* Info.plist */; };
+		94ABFDEF1F21E11F009074BB /* YYNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD171F21E11F009074BB /* YYNavigationViewController.swift */; };
+		94ABFDF01F21E11F009074BB /* YYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD181F21E11F009074BB /* YYTabBarController.swift */; };
+		94ABFDF11F21E11F009074BB /* YYApplyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD1B1F21E11F009074BB /* YYApplyModel.swift */; };
+		94ABFDF21F21E11F009074BB /* YYCompetitionCommentSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD1C1F21E11F009074BB /* YYCompetitionCommentSectionModel.swift */; };
+		94ABFDF31F21E11F009074BB /* AppDelegate+HuanXin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD1E1F21E11F009074BB /* AppDelegate+HuanXin.swift */; };
+		94ABFDF41F21E11F009074BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD1F1F21E11F009074BB /* AppDelegate.swift */; };
+		94ABFDF51F21E11F009074BB /* HuanXin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD201F21E11F009074BB /* HuanXin.swift */; };
+		94ABFDF61F21E11F009074BB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD211F21E11F009074BB /* Theme.swift */; };
+		94ABFDF71F21E11F009074BB /* YYKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD231F21E11F009074BB /* YYKey.swift */; };
+		94ABFDF81F21E11F009074BB /* apply.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD251F21E11F009074BB /* apply.plist */; };
+		94ABFDF91F21E11F009074BB /* comment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD261F21E11F009074BB /* comment.plist */; };
+		94ABFDFA1F21E11F009074BB /* IMGroupSetting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD271F21E11F009074BB /* IMGroupSetting.plist */; };
+		94ABFDFB1F21E11F009074BB /* YYAlertAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD2A1F21E11F009074BB /* YYAlertAnimation.swift */; };
+		94ABFDFC1F21E11F009074BB /* YYAlertBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD2B1F21E11F009074BB /* YYAlertBirthdayView.swift */; };
+		94ABFDFD1F21E11F009074BB /* YYAlertBirthdayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD2C1F21E11F009074BB /* YYAlertBirthdayView.xib */; };
+		94ABFDFE1F21E11F009074BB /* YYAlertLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD2D1F21E11F009074BB /* YYAlertLoadingView.swift */; };
+		94ABFDFF1F21E11F009074BB /* YYAlertSelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD2E1F21E11F009074BB /* YYAlertSelectedCell.swift */; };
+		94ABFE001F21E11F009074BB /* YYAlertSelectedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD2F1F21E11F009074BB /* YYAlertSelectedCell.xib */; };
+		94ABFE011F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD301F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.swift */; };
+		94ABFE021F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD311F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.xib */; };
+		94ABFE031F21E11F009074BB /* YYAlertSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD321F21E11F009074BB /* YYAlertSelectedView.swift */; };
+		94ABFE041F21E11F009074BB /* YYAlertTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD331F21E11F009074BB /* YYAlertTextView.swift */; };
+		94ABFE051F21E11F009074BB /* YYAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD341F21E11F009074BB /* YYAlertView.swift */; };
+		94ABFE061F21E11F009074BB /* YYAlertWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD351F21E11F009074BB /* YYAlertWindowView.swift */; };
+		94ABFE071F21E11F009074BB /* YYPagingHeaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD371F21E11F009074BB /* YYPagingHeaderScrollView.swift */; };
+		94ABFE081F21E11F009074BB /* YYPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD381F21E11F009074BB /* YYPagingView.swift */; };
+		94ABFE091F21E11F009074BB /* GA_AnimationRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD3A1F21E11F009074BB /* GA_AnimationRefreshHeaderView.swift */; };
+		94ABFE0A1F21E11F009074BB /* GA_AnimationRefreshHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD3B1F21E11F009074BB /* GA_AnimationRefreshHeaderView.xib */; };
+		94ABFE0B1F21E11F009074BB /* GA_CircleRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD3C1F21E11F009074BB /* GA_CircleRefreshHeaderView.swift */; };
+		94ABFE0C1F21E11F009074BB /* GA_LoadFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD3D1F21E11F009074BB /* GA_LoadFooterView.swift */; };
+		94ABFE0D1F21E11F009074BB /* GA_RefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD3E1F21E11F009074BB /* GA_RefreshHeaderView.swift */; };
+		94ABFE0E1F21E11F009074BB /* GA_RefreshOther.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD3F1F21E11F009074BB /* GA_RefreshOther.swift */; };
+		94ABFE0F1F21E11F009074BB /* GA_XIBRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD401F21E11F009074BB /* GA_XIBRefreshHeaderView.swift */; };
+		94ABFE101F21E11F009074BB /* ScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD411F21E11F009074BB /* ScrollView+Extension.swift */; };
+		94ABFE111F21E11F009074BB /* YYBorderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD421F21E11F009074BB /* YYBorderLabel.swift */; };
+		94ABFE121F21E11F009074BB /* YYCircleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD431F21E11F009074BB /* YYCircleScrollView.swift */; };
+		94ABFE131F21E11F009074BB /* YYDrawerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD441F21E11F009074BB /* YYDrawerTableViewCell.swift */; };
+		94ABFE141F21E11F009074BB /* YYEmptyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD451F21E11F009074BB /* YYEmptyTableView.swift */; };
+		94ABFE151F21E11F009074BB /* YYIconLableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD461F21E11F009074BB /* YYIconLableView.swift */; };
+		94ABFE161F21E11F009074BB /* YYOnePixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD471F21E11F009074BB /* YYOnePixView.swift */; };
+		94ABFE171F21E11F009074BB /* YYPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD481F21E11F009074BB /* YYPlayerView.swift */; };
+		94ABFE181F21E11F009074BB /* YYShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD4A1F21E11F009074BB /* YYShotView.swift */; };
+		94ABFE191F21E11F009074BB /* YYShotViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD4B1F21E11F009074BB /* YYShotViewButton.swift */; };
+		94ABFE1A1F21E11F009074BB /* YYWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD4C1F21E11F009074BB /* YYWebView.swift */; };
+		94ABFE1B1F21E11F009074BB /* Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD4E1F21E11F009074BB /* Compare.swift */; };
+		94ABFE1C1F21E11F009074BB /* KeyPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD4F1F21E11F009074BB /* KeyPath.swift */; };
+		94ABFE1D1F21E11F009074BB /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD501F21E11F009074BB /* Protocol.swift */; };
+		94ABFE1E1F21E11F009074BB /* YBAttributeTextTapForSwfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD511F21E11F009074BB /* YBAttributeTextTapForSwfit.swift */; };
+		94ABFE1F1F21E11F009074BB /* YYApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD551F21E11F009074BB /* YYApplyViewController.swift */; };
+		94ABFE201F21E11F009074BB /* YYEventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD571F21E11F009074BB /* YYEventDetailViewController.swift */; };
+		94ABFE211F21E11F009074BB /* YYIMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD581F21E11F009074BB /* YYIMViewController.swift */; };
+		94ABFE221F21E11F009074BB /* YYYeEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD591F21E11F009074BB /* YYYeEventViewController.swift */; };
+		94ABFE231F21E11F009074BB /* YYIMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD5C1F21E11F009074BB /* YYIMBaseViewController.swift */; };
+		94ABFE241F21E11F009074BB /* YYEaseConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD5E1F21E11F009074BB /* YYEaseConversationListViewController.swift */; };
+		94ABFE251F21E11F009074BB /* YYEaseUsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD5F1F21E11F009074BB /* YYEaseUsersListViewController.swift */; };
+		94ABFE261F21E11F009074BB /* YYIMChatGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD601F21E11F009074BB /* YYIMChatGroupViewController.swift */; };
+		94ABFE271F21E11F009074BB /* YYIMContactSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD611F21E11F009074BB /* YYIMContactSelectionViewController.swift */; };
+		94ABFE281F21E11F009074BB /* YYIMConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD621F21E11F009074BB /* YYIMConversationViewController.swift */; };
+		94ABFE291F21E11F009074BB /* YYIMCreatChatGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD631F21E11F009074BB /* YYIMCreatChatGroupViewController.swift */; };
+		94ABFE2A1F21E11F009074BB /* YYIMCreatChatGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD641F21E11F009074BB /* YYIMCreatChatGroupViewController.xib */; };
+		94ABFE2B1F21E11F009074BB /* YYIMCreatChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD651F21E11F009074BB /* YYIMCreatChatRoomViewController.swift */; };
+		94ABFE2C1F21E11F009074BB /* YYIMCreatChatRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD661F21E11F009074BB /* YYIMCreatChatRoomViewController.xib */; };
+		94ABFE2D1F21E11F009074BB /* YYIMFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD671F21E11F009074BB /* YYIMFriendViewController.swift */; };
+		94ABFE2E1F21E11F009074BB /* YYIMGroupInfoSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD681F21E11F009074BB /* YYIMGroupInfoSettingViewController.swift */; };
+		94ABFE2F1F21E11F009074BB /* YYIMGroupInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD691F21E11F009074BB /* YYIMGroupInfoViewController.swift */; };
+		94ABFE301F21E11F009074BB /* YYIMGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD6A1F21E11F009074BB /* YYIMGroupViewController.swift */; };
+		94ABFE311F21E11F009074BB /* YYIMRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD6B1F21E11F009074BB /* YYIMRoomViewController.swift */; };
+		94ABFE321F21E11F009074BB /* YYIMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD6C1F21E11F009074BB /* YYIMViewController.swift */; };
+		94ABFE331F21E11F009074BB /* YYNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD6E1F21E11F009074BB /* YYNewsViewController.swift */; };
+		94ABFE341F21E11F009074BB /* YYActivityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD711F21E11F009074BB /* YYActivityListViewController.swift */; };
+		94ABFE351F21E11F009074BB /* YYArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD731F21E11F009074BB /* YYArticleListViewController.swift */; };
+		94ABFE361F21E11F009074BB /* YYApplyQueryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD751F21E11F009074BB /* YYApplyQueryViewController.swift */; };
+		94ABFE371F21E11F009074BB /* YYCompetitionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD761F21E11F009074BB /* YYCompetitionDetailsViewController.swift */; };
+		94ABFE381F21E11F009074BB /* YYCompetitionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD771F21E11F009074BB /* YYCompetitionListViewController.swift */; };
+		94ABFE391F21E11F009074BB /* YYLiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD791F21E11F009074BB /* YYLiveListViewController.swift */; };
+		94ABFE3A1F21E11F009074BB /* YYPhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD7B1F21E11F009074BB /* YYPhotoListViewController.swift */; };
+		94ABFE3B1F21E11F009074BB /* YYSurroundingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD7D1F21E11F009074BB /* YYSurroundingListViewController.swift */; };
+		94ABFE3C1F21E11F009074BB /* YYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD7E1F21E11F009074BB /* YYHomeViewController.swift */; };
+		94ABFE3D1F21E11F009074BB /* YYMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD7F1F21E11F009074BB /* YYMyViewController.swift */; };
+		94ABFE3E1F21E11F009074BB /* YYApplyAddImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD821F21E11F009074BB /* YYApplyAddImageTableViewCell.swift */; };
+		94ABFE3F1F21E11F009074BB /* YYApplyAddImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD831F21E11F009074BB /* YYApplyAddImageTableViewCell.xib */; };
+		94ABFE401F21E11F009074BB /* YYApplyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD841F21E11F009074BB /* YYApplyHeaderView.swift */; };
+		94ABFE411F21E11F009074BB /* YYApplyHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD851F21E11F009074BB /* YYApplyHeaderView.xib */; };
+		94ABFE421F21E11F009074BB /* YYApplySelectedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD861F21E11F009074BB /* YYApplySelectedTableViewCell.swift */; };
+		94ABFE431F21E11F009074BB /* YYApplySelectedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD871F21E11F009074BB /* YYApplySelectedTableViewCell.xib */; };
+		94ABFE441F21E11F009074BB /* YYApplyTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD881F21E11F009074BB /* YYApplyTextTableViewCell.swift */; };
+		94ABFE451F21E11F009074BB /* YYApplyTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD891F21E11F009074BB /* YYApplyTextTableViewCell.xib */; };
+		94ABFE461F21E11F009074BB /* YYEventVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD8B1F21E11F009074BB /* YYEventVideoCell.swift */; };
+		94ABFE471F21E11F009074BB /* YYEventVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD8C1F21E11F009074BB /* YYEventVideoCell.xib */; };
+		94ABFE481F21E11F009074BB /* YYHomeTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD8F1F21E11F009074BB /* YYHomeTopView.swift */; };
+		94ABFE491F21E11F009074BB /* YYModuleSelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD901F21E11F009074BB /* YYModuleSelectedCell.swift */; };
+		94ABFE4A1F21E11F009074BB /* YYModuleSelectedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD911F21E11F009074BB /* YYModuleSelectedCell.xib */; };
+		94ABFE4B1F21E11F009074BB /* YYModuleSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD921F21E11F009074BB /* YYModuleSelectedView.swift */; };
+		94ABFE4C1F21E11F009074BB /* YYHomeBasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD931F21E11F009074BB /* YYHomeBasicCell.swift */; };
+		94ABFE4D1F21E11F009074BB /* YYHomeBasicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD941F21E11F009074BB /* YYHomeBasicCell.xib */; };
+		94ABFE4E1F21E11F009074BB /* YYHomeSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD951F21E11F009074BB /* YYHomeSectionView.xib */; };
+		94ABFE4F1F21E11F009074BB /* YYConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD971F21E11F009074BB /* YYConversationCell.swift */; };
+		94ABFE501F21E11F009074BB /* YYConversationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD981F21E11F009074BB /* YYConversationCell.xib */; };
+		94ABFE511F21E11F009074BB /* YYIMAddFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD991F21E11F009074BB /* YYIMAddFriendCell.swift */; };
+		94ABFE521F21E11F009074BB /* YYIMAddFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD9A1F21E11F009074BB /* YYIMAddFriendCell.xib */; };
+		94ABFE531F21E11F009074BB /* YYIMGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD9B1F21E11F009074BB /* YYIMGroupCell.swift */; };
+		94ABFE541F21E11F009074BB /* YYIMGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD9C1F21E11F009074BB /* YYIMGroupCell.xib */; };
+		94ABFE551F21E11F009074BB /* YYIMGroupInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD9D1F21E11F009074BB /* YYIMGroupInfoCell.swift */; };
+		94ABFE561F21E11F009074BB /* YYIMGroupInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD9E1F21E11F009074BB /* YYIMGroupInfoCell.xib */; };
+		94ABFE571F21E11F009074BB /* YYIMGroupInfoSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD9F1F21E11F009074BB /* YYIMGroupInfoSectionView.swift */; };
+		94ABFE581F21E11F009074BB /* YYIMGroupInfoSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDA01F21E11F009074BB /* YYIMGroupInfoSectionView.xib */; };
+		94ABFE591F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDA11F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.swift */; };
+		94ABFE5A1F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDA21F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.xib */; };
+		94ABFE5B1F21E11F009074BB /* YYIMGroupInfoSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDA31F21E11F009074BB /* YYIMGroupInfoSettingCell.swift */; };
+		94ABFE5C1F21E11F009074BB /* YYIMGroupInfoSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDA41F21E11F009074BB /* YYIMGroupInfoSettingCell.xib */; };
+		94ABFE5D1F21E11F009074BB /* YYMyBasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDA61F21E11F009074BB /* YYMyBasicCell.swift */; };
+		94ABFE5E1F21E11F009074BB /* YYMyBasicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDA71F21E11F009074BB /* YYMyBasicCell.xib */; };
+		94ABFE5F1F21E11F009074BB /* YYMyTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDA81F21E11F009074BB /* YYMyTopView.swift */; };
+		94ABFE601F21E11F009074BB /* YYActivityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDAB1F21E11F009074BB /* YYActivityListCell.swift */; };
+		94ABFE611F21E11F009074BB /* YYActivityListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDAC1F21E11F009074BB /* YYActivityListCell.xib */; };
+		94ABFE621F21E11F009074BB /* YYCompetitionCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDAF1F21E11F009074BB /* YYCompetitionCommentCell.swift */; };
+		94ABFE631F21E11F009074BB /* YYCompetitionCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDB01F21E11F009074BB /* YYCompetitionCommentCell.xib */; };
+		94ABFE641F21E11F009074BB /* YYCompetitionCommentSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDB11F21E11F009074BB /* YYCompetitionCommentSectionView.swift */; };
+		94ABFE651F21E11F009074BB /* YYCompetitionCommentSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDB21F21E11F009074BB /* YYCompetitionCommentSectionView.xib */; };
+		94ABFE661F21E11F009074BB /* YYCompetitionDetailsBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDB31F21E11F009074BB /* YYCompetitionDetailsBottomView.swift */; };
+		94ABFE671F21E11F009074BB /* YYCompetitionDetailsBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDB41F21E11F009074BB /* YYCompetitionDetailsBottomView.xib */; };
+		94ABFE681F21E11F009074BB /* YYCompetitionDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDB51F21E11F009074BB /* YYCompetitionDetailsHeaderView.swift */; };
+		94ABFE691F21E11F009074BB /* YYCompetitionDetailsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDB61F21E11F009074BB /* YYCompetitionDetailsHeaderView.xib */; };
+		94ABFE6A1F21E11F009074BB /* YYCompetitionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDB71F21E11F009074BB /* YYCompetitionListCell.swift */; };
+		94ABFE6B1F21E11F009074BB /* YYCompetitionListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDB81F21E11F009074BB /* YYCompetitionListCell.xib */; };
+		94ABFE6C1F21E11F009074BB /* YYCompetitionReplyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDB91F21E11F009074BB /* YYCompetitionReplyCell.swift */; };
+		94ABFE6D1F21E11F009074BB /* YYCompetitionReplyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDBA1F21E11F009074BB /* YYCompetitionReplyCell.xib */; };
+		94ABFE6E1F21E11F009074BB /* YYLiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDBC1F21E11F009074BB /* YYLiveCollectionViewCell.swift */; };
+		94ABFE6F1F21E11F009074BB /* YYLiveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDBD1F21E11F009074BB /* YYLiveCollectionViewCell.xib */; };
+		94ABFE701F21E11F009074BB /* YYSpaceCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDC01F21E11F009074BB /* YYSpaceCellTableViewCell.swift */; };
+		94ABFE711F21E11F009074BB /* YYSpaceCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDC11F21E11F009074BB /* YYSpaceCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +206,189 @@
 
 /* Begin PBXFileReference section */
 		94ABFCB11F21E09B009074BB /* YeShi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeShi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		94ABFCB41F21E09B009074BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94ABFCB61F21E09B009074BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94ABFCB91F21E09B009074BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94ABFCBB1F21E09B009074BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		94ABFCBE1F21E09B009074BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		94ABFCC01F21E09B009074BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94ABFCC51F21E09B009074BB /* YeShiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeShiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ABFCC91F21E09B009074BB /* YeShiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeShiTests.swift; sourceTree = "<group>"; };
 		94ABFCCB1F21E09B009074BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94ABFCD01F21E09B009074BB /* YeShiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeShiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ABFCD41F21E09B009074BB /* YeShiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeShiUITests.swift; sourceTree = "<group>"; };
 		94ABFCD61F21E09B009074BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94ABFCE21F21E11F009074BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94ABFCE51F21E11F009074BB /* YYAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertViewController.swift; sourceTree = "<group>"; };
+		94ABFCE61F21E11F009074BB /* YYBaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseCollectionViewController.swift; sourceTree = "<group>"; };
+		94ABFCE71F21E11F009074BB /* YYBaseImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseImagePickerController.swift; sourceTree = "<group>"; };
+		94ABFCE81F21E11F009074BB /* YYBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseTableViewController.swift; sourceTree = "<group>"; };
+		94ABFCE91F21E11F009074BB /* YYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseViewController.swift; sourceTree = "<group>"; };
+		94ABFCEC1F21E11F009074BB /* YYBaseNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseNavigationView.swift; sourceTree = "<group>"; };
+		94ABFCED1F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseNavigationViewFinishedButton.xib; sourceTree = "<group>"; };
+		94ABFCEE1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseNavigationViewIMGroupDetailsButton.xib; sourceTree = "<group>"; };
+		94ABFCEF1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseNavigationViewServiceButton.xib; sourceTree = "<group>"; };
+		94ABFCF01F21E11F009074BB /* YYBaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseCollectionView.swift; sourceTree = "<group>"; };
+		94ABFCF11F21E11F009074BB /* YYBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseTableViewCell.swift; sourceTree = "<group>"; };
+		94ABFCF21F21E11F009074BB /* YYBaseTableViewFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseTableViewFooterView.swift; sourceTree = "<group>"; };
+		94ABFCF31F21E11F009074BB /* YYBaseTableViewFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseTableViewFooterView.xib; sourceTree = "<group>"; };
+		94ABFCF41F21E11F009074BB /* YYBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseView.swift; sourceTree = "<group>"; };
+		94ABFCF71F21E11F009074BB /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		94ABFCF81F21E11F009074BB /* CGFloat+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
+		94ABFCF91F21E11F009074BB /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		94ABFCFA1F21E11F009074BB /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		94ABFCFB1F21E11F009074BB /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		94ABFCFC1F21E11F009074BB /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		94ABFCFD1F21E11F009074BB /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		94ABFCFE1F21E11F009074BB /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		94ABFCFF1F21E11F009074BB /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		94ABFD001F21E11F009074BB /* URL+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		94ABFD021F21E11F009074BB /* IMG_0361.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0361.jpg; sourceTree = "<group>"; };
+		94ABFD031F21E11F009074BB /* IMG_0407.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0407.jpg; sourceTree = "<group>"; };
+		94ABFD041F21E11F009074BB /* IMG_0487.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0487.jpg; sourceTree = "<group>"; };
+		94ABFD051F21E11F009074BB /* IMG_0490.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0490.jpg; sourceTree = "<group>"; };
+		94ABFD061F21E11F009074BB /* IMG_2473.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2473.jpg; sourceTree = "<group>"; };
+		94ABFD071F21E11F009074BB /* IMG_2478.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2478.jpg; sourceTree = "<group>"; };
+		94ABFD081F21E11F009074BB /* IMG_2719.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2719.jpg; sourceTree = "<group>"; };
+		94ABFD091F21E11F009074BB /* IMG_2772.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2772.jpg; sourceTree = "<group>"; };
+		94ABFD0A1F21E11F009074BB /* IMG_2787.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2787.jpg; sourceTree = "<group>"; };
+		94ABFD0B1F21E11F009074BB /* IMG_2898.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2898.jpg; sourceTree = "<group>"; };
+		94ABFD0C1F21E11F009074BB /* IMG_3026.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3026.jpg; sourceTree = "<group>"; };
+		94ABFD0D1F21E11F009074BB /* IMG_3027.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3027.jpg; sourceTree = "<group>"; };
+		94ABFD0E1F21E11F009074BB /* IMG_3065.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3065.jpg; sourceTree = "<group>"; };
+		94ABFD0F1F21E11F009074BB /* IMG_3091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3091.jpg; sourceTree = "<group>"; };
+		94ABFD101F21E11F009074BB /* IMG_3260.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3260.JPG; sourceTree = "<group>"; };
+		94ABFD111F21E11F009074BB /* IMG_3269.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3269.JPG; sourceTree = "<group>"; };
+		94ABFD121F21E11F009074BB /* IMG_3278.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3278.jpg; sourceTree = "<group>"; };
+		94ABFD131F21E11F009074BB /* IMG_8227.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8227.JPG; sourceTree = "<group>"; };
+		94ABFD141F21E11F009074BB /* IMG_8235.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8235.JPG; sourceTree = "<group>"; };
+		94ABFD151F21E11F009074BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94ABFD171F21E11F009074BB /* YYNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNavigationViewController.swift; sourceTree = "<group>"; };
+		94ABFD181F21E11F009074BB /* YYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTabBarController.swift; sourceTree = "<group>"; };
+		94ABFD1B1F21E11F009074BB /* YYApplyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplyModel.swift; sourceTree = "<group>"; };
+		94ABFD1C1F21E11F009074BB /* YYCompetitionCommentSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionCommentSectionModel.swift; sourceTree = "<group>"; };
+		94ABFD1E1F21E11F009074BB /* AppDelegate+HuanXin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+HuanXin.swift"; sourceTree = "<group>"; };
+		94ABFD1F1F21E11F009074BB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94ABFD201F21E11F009074BB /* HuanXin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuanXin.swift; sourceTree = "<group>"; };
+		94ABFD211F21E11F009074BB /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		94ABFD221F21E11F009074BB /* YYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHeader.h; sourceTree = "<group>"; };
+		94ABFD231F21E11F009074BB /* YYKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYKey.swift; sourceTree = "<group>"; };
+		94ABFD251F21E11F009074BB /* apply.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apply.plist; sourceTree = "<group>"; };
+		94ABFD261F21E11F009074BB /* comment.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = comment.plist; sourceTree = "<group>"; };
+		94ABFD271F21E11F009074BB /* IMGroupSetting.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IMGroupSetting.plist; sourceTree = "<group>"; };
+		94ABFD2A1F21E11F009074BB /* YYAlertAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertAnimation.swift; sourceTree = "<group>"; };
+		94ABFD2B1F21E11F009074BB /* YYAlertBirthdayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertBirthdayView.swift; sourceTree = "<group>"; };
+		94ABFD2C1F21E11F009074BB /* YYAlertBirthdayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYAlertBirthdayView.xib; sourceTree = "<group>"; };
+		94ABFD2D1F21E11F009074BB /* YYAlertLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertLoadingView.swift; sourceTree = "<group>"; };
+		94ABFD2E1F21E11F009074BB /* YYAlertSelectedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertSelectedCell.swift; sourceTree = "<group>"; };
+		94ABFD2F1F21E11F009074BB /* YYAlertSelectedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYAlertSelectedCell.xib; sourceTree = "<group>"; };
+		94ABFD301F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertSelectedTableViewHeaderView.swift; sourceTree = "<group>"; };
+		94ABFD311F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYAlertSelectedTableViewHeaderView.xib; sourceTree = "<group>"; };
+		94ABFD321F21E11F009074BB /* YYAlertSelectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertSelectedView.swift; sourceTree = "<group>"; };
+		94ABFD331F21E11F009074BB /* YYAlertTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertTextView.swift; sourceTree = "<group>"; };
+		94ABFD341F21E11F009074BB /* YYAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertView.swift; sourceTree = "<group>"; };
+		94ABFD351F21E11F009074BB /* YYAlertWindowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYAlertWindowView.swift; sourceTree = "<group>"; };
+		94ABFD371F21E11F009074BB /* YYPagingHeaderScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYPagingHeaderScrollView.swift; sourceTree = "<group>"; };
+		94ABFD381F21E11F009074BB /* YYPagingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYPagingView.swift; sourceTree = "<group>"; };
+		94ABFD3A1F21E11F009074BB /* GA_AnimationRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_AnimationRefreshHeaderView.swift; sourceTree = "<group>"; };
+		94ABFD3B1F21E11F009074BB /* GA_AnimationRefreshHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_AnimationRefreshHeaderView.xib; sourceTree = "<group>"; };
+		94ABFD3C1F21E11F009074BB /* GA_CircleRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_CircleRefreshHeaderView.swift; sourceTree = "<group>"; };
+		94ABFD3D1F21E11F009074BB /* GA_LoadFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_LoadFooterView.swift; sourceTree = "<group>"; };
+		94ABFD3E1F21E11F009074BB /* GA_RefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_RefreshHeaderView.swift; sourceTree = "<group>"; };
+		94ABFD3F1F21E11F009074BB /* GA_RefreshOther.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_RefreshOther.swift; sourceTree = "<group>"; };
+		94ABFD401F21E11F009074BB /* GA_XIBRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_XIBRefreshHeaderView.swift; sourceTree = "<group>"; };
+		94ABFD411F21E11F009074BB /* ScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+Extension.swift"; sourceTree = "<group>"; };
+		94ABFD421F21E11F009074BB /* YYBorderLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBorderLabel.swift; sourceTree = "<group>"; };
+		94ABFD431F21E11F009074BB /* YYCircleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCircleScrollView.swift; sourceTree = "<group>"; };
+		94ABFD441F21E11F009074BB /* YYDrawerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYDrawerTableViewCell.swift; sourceTree = "<group>"; };
+		94ABFD451F21E11F009074BB /* YYEmptyTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYEmptyTableView.swift; sourceTree = "<group>"; };
+		94ABFD461F21E11F009074BB /* YYIconLableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIconLableView.swift; sourceTree = "<group>"; };
+		94ABFD471F21E11F009074BB /* YYOnePixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYOnePixView.swift; sourceTree = "<group>"; };
+		94ABFD481F21E11F009074BB /* YYPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYPlayerView.swift; sourceTree = "<group>"; };
+		94ABFD4A1F21E11F009074BB /* YYShotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYShotView.swift; sourceTree = "<group>"; };
+		94ABFD4B1F21E11F009074BB /* YYShotViewButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYShotViewButton.swift; sourceTree = "<group>"; };
+		94ABFD4C1F21E11F009074BB /* YYWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYWebView.swift; sourceTree = "<group>"; };
+		94ABFD4E1F21E11F009074BB /* Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compare.swift; sourceTree = "<group>"; };
+		94ABFD4F1F21E11F009074BB /* KeyPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPath.swift; sourceTree = "<group>"; };
+		94ABFD501F21E11F009074BB /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		94ABFD511F21E11F009074BB /* YBAttributeTextTapForSwfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBAttributeTextTapForSwfit.swift; sourceTree = "<group>"; };
+		94ABFD551F21E11F009074BB /* YYApplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplyViewController.swift; sourceTree = "<group>"; };
+		94ABFD571F21E11F009074BB /* YYEventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYEventDetailViewController.swift; sourceTree = "<group>"; };
+		94ABFD581F21E11F009074BB /* YYIMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMViewController.swift; sourceTree = "<group>"; };
+		94ABFD591F21E11F009074BB /* YYYeEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYYeEventViewController.swift; sourceTree = "<group>"; };
+		94ABFD5C1F21E11F009074BB /* YYIMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMBaseViewController.swift; sourceTree = "<group>"; };
+		94ABFD5E1F21E11F009074BB /* YYEaseConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYEaseConversationListViewController.swift; sourceTree = "<group>"; };
+		94ABFD5F1F21E11F009074BB /* YYEaseUsersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYEaseUsersListViewController.swift; sourceTree = "<group>"; };
+		94ABFD601F21E11F009074BB /* YYIMChatGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMChatGroupViewController.swift; sourceTree = "<group>"; };
+		94ABFD611F21E11F009074BB /* YYIMContactSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMContactSelectionViewController.swift; sourceTree = "<group>"; };
+		94ABFD621F21E11F009074BB /* YYIMConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMConversationViewController.swift; sourceTree = "<group>"; };
+		94ABFD631F21E11F009074BB /* YYIMCreatChatGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMCreatChatGroupViewController.swift; sourceTree = "<group>"; };
+		94ABFD641F21E11F009074BB /* YYIMCreatChatGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMCreatChatGroupViewController.xib; sourceTree = "<group>"; };
+		94ABFD651F21E11F009074BB /* YYIMCreatChatRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMCreatChatRoomViewController.swift; sourceTree = "<group>"; };
+		94ABFD661F21E11F009074BB /* YYIMCreatChatRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMCreatChatRoomViewController.xib; sourceTree = "<group>"; };
+		94ABFD671F21E11F009074BB /* YYIMFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMFriendViewController.swift; sourceTree = "<group>"; };
+		94ABFD681F21E11F009074BB /* YYIMGroupInfoSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupInfoSettingViewController.swift; sourceTree = "<group>"; };
+		94ABFD691F21E11F009074BB /* YYIMGroupInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupInfoViewController.swift; sourceTree = "<group>"; };
+		94ABFD6A1F21E11F009074BB /* YYIMGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupViewController.swift; sourceTree = "<group>"; };
+		94ABFD6B1F21E11F009074BB /* YYIMRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMRoomViewController.swift; sourceTree = "<group>"; };
+		94ABFD6C1F21E11F009074BB /* YYIMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMViewController.swift; sourceTree = "<group>"; };
+		94ABFD6E1F21E11F009074BB /* YYNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewsViewController.swift; sourceTree = "<group>"; };
+		94ABFD711F21E11F009074BB /* YYActivityListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYActivityListViewController.swift; sourceTree = "<group>"; };
+		94ABFD731F21E11F009074BB /* YYArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYArticleListViewController.swift; sourceTree = "<group>"; };
+		94ABFD751F21E11F009074BB /* YYApplyQueryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplyQueryViewController.swift; sourceTree = "<group>"; };
+		94ABFD761F21E11F009074BB /* YYCompetitionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionDetailsViewController.swift; sourceTree = "<group>"; };
+		94ABFD771F21E11F009074BB /* YYCompetitionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionListViewController.swift; sourceTree = "<group>"; };
+		94ABFD791F21E11F009074BB /* YYLiveListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYLiveListViewController.swift; sourceTree = "<group>"; };
+		94ABFD7B1F21E11F009074BB /* YYPhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYPhotoListViewController.swift; sourceTree = "<group>"; };
+		94ABFD7D1F21E11F009074BB /* YYSurroundingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSurroundingListViewController.swift; sourceTree = "<group>"; };
+		94ABFD7E1F21E11F009074BB /* YYHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYHomeViewController.swift; sourceTree = "<group>"; };
+		94ABFD7F1F21E11F009074BB /* YYMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYMyViewController.swift; sourceTree = "<group>"; };
+		94ABFD821F21E11F009074BB /* YYApplyAddImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplyAddImageTableViewCell.swift; sourceTree = "<group>"; };
+		94ABFD831F21E11F009074BB /* YYApplyAddImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYApplyAddImageTableViewCell.xib; sourceTree = "<group>"; };
+		94ABFD841F21E11F009074BB /* YYApplyHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplyHeaderView.swift; sourceTree = "<group>"; };
+		94ABFD851F21E11F009074BB /* YYApplyHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYApplyHeaderView.xib; sourceTree = "<group>"; };
+		94ABFD861F21E11F009074BB /* YYApplySelectedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplySelectedTableViewCell.swift; sourceTree = "<group>"; };
+		94ABFD871F21E11F009074BB /* YYApplySelectedTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYApplySelectedTableViewCell.xib; sourceTree = "<group>"; };
+		94ABFD881F21E11F009074BB /* YYApplyTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplyTextTableViewCell.swift; sourceTree = "<group>"; };
+		94ABFD891F21E11F009074BB /* YYApplyTextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYApplyTextTableViewCell.xib; sourceTree = "<group>"; };
+		94ABFD8B1F21E11F009074BB /* YYEventVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYEventVideoCell.swift; sourceTree = "<group>"; };
+		94ABFD8C1F21E11F009074BB /* YYEventVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYEventVideoCell.xib; sourceTree = "<group>"; };
+		94ABFD8F1F21E11F009074BB /* YYHomeTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYHomeTopView.swift; sourceTree = "<group>"; };
+		94ABFD901F21E11F009074BB /* YYModuleSelectedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYModuleSelectedCell.swift; sourceTree = "<group>"; };
+		94ABFD911F21E11F009074BB /* YYModuleSelectedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYModuleSelectedCell.xib; sourceTree = "<group>"; };
+		94ABFD921F21E11F009074BB /* YYModuleSelectedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYModuleSelectedView.swift; sourceTree = "<group>"; };
+		94ABFD931F21E11F009074BB /* YYHomeBasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYHomeBasicCell.swift; sourceTree = "<group>"; };
+		94ABFD941F21E11F009074BB /* YYHomeBasicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYHomeBasicCell.xib; sourceTree = "<group>"; };
+		94ABFD951F21E11F009074BB /* YYHomeSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYHomeSectionView.xib; sourceTree = "<group>"; };
+		94ABFD971F21E11F009074BB /* YYConversationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYConversationCell.swift; sourceTree = "<group>"; };
+		94ABFD981F21E11F009074BB /* YYConversationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYConversationCell.xib; sourceTree = "<group>"; };
+		94ABFD991F21E11F009074BB /* YYIMAddFriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMAddFriendCell.swift; sourceTree = "<group>"; };
+		94ABFD9A1F21E11F009074BB /* YYIMAddFriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMAddFriendCell.xib; sourceTree = "<group>"; };
+		94ABFD9B1F21E11F009074BB /* YYIMGroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupCell.swift; sourceTree = "<group>"; };
+		94ABFD9C1F21E11F009074BB /* YYIMGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMGroupCell.xib; sourceTree = "<group>"; };
+		94ABFD9D1F21E11F009074BB /* YYIMGroupInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupInfoCell.swift; sourceTree = "<group>"; };
+		94ABFD9E1F21E11F009074BB /* YYIMGroupInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMGroupInfoCell.xib; sourceTree = "<group>"; };
+		94ABFD9F1F21E11F009074BB /* YYIMGroupInfoSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupInfoSectionView.swift; sourceTree = "<group>"; };
+		94ABFDA01F21E11F009074BB /* YYIMGroupInfoSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMGroupInfoSectionView.xib; sourceTree = "<group>"; };
+		94ABFDA11F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupInfoSettingButtonCell.swift; sourceTree = "<group>"; };
+		94ABFDA21F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMGroupInfoSettingButtonCell.xib; sourceTree = "<group>"; };
+		94ABFDA31F21E11F009074BB /* YYIMGroupInfoSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupInfoSettingCell.swift; sourceTree = "<group>"; };
+		94ABFDA41F21E11F009074BB /* YYIMGroupInfoSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMGroupInfoSettingCell.xib; sourceTree = "<group>"; };
+		94ABFDA61F21E11F009074BB /* YYMyBasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYMyBasicCell.swift; sourceTree = "<group>"; };
+		94ABFDA71F21E11F009074BB /* YYMyBasicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYMyBasicCell.xib; sourceTree = "<group>"; };
+		94ABFDA81F21E11F009074BB /* YYMyTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYMyTopView.swift; sourceTree = "<group>"; };
+		94ABFDAB1F21E11F009074BB /* YYActivityListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYActivityListCell.swift; sourceTree = "<group>"; };
+		94ABFDAC1F21E11F009074BB /* YYActivityListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYActivityListCell.xib; sourceTree = "<group>"; };
+		94ABFDAF1F21E11F009074BB /* YYCompetitionCommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionCommentCell.swift; sourceTree = "<group>"; };
+		94ABFDB01F21E11F009074BB /* YYCompetitionCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCompetitionCommentCell.xib; sourceTree = "<group>"; };
+		94ABFDB11F21E11F009074BB /* YYCompetitionCommentSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionCommentSectionView.swift; sourceTree = "<group>"; };
+		94ABFDB21F21E11F009074BB /* YYCompetitionCommentSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCompetitionCommentSectionView.xib; sourceTree = "<group>"; };
+		94ABFDB31F21E11F009074BB /* YYCompetitionDetailsBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionDetailsBottomView.swift; sourceTree = "<group>"; };
+		94ABFDB41F21E11F009074BB /* YYCompetitionDetailsBottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCompetitionDetailsBottomView.xib; sourceTree = "<group>"; };
+		94ABFDB51F21E11F009074BB /* YYCompetitionDetailsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionDetailsHeaderView.swift; sourceTree = "<group>"; };
+		94ABFDB61F21E11F009074BB /* YYCompetitionDetailsHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCompetitionDetailsHeaderView.xib; sourceTree = "<group>"; };
+		94ABFDB71F21E11F009074BB /* YYCompetitionListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionListCell.swift; sourceTree = "<group>"; };
+		94ABFDB81F21E11F009074BB /* YYCompetitionListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCompetitionListCell.xib; sourceTree = "<group>"; };
+		94ABFDB91F21E11F009074BB /* YYCompetitionReplyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYCompetitionReplyCell.swift; sourceTree = "<group>"; };
+		94ABFDBA1F21E11F009074BB /* YYCompetitionReplyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYCompetitionReplyCell.xib; sourceTree = "<group>"; };
+		94ABFDBC1F21E11F009074BB /* YYLiveCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYLiveCollectionViewCell.swift; sourceTree = "<group>"; };
+		94ABFDBD1F21E11F009074BB /* YYLiveCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYLiveCollectionViewCell.xib; sourceTree = "<group>"; };
+		94ABFDC01F21E11F009074BB /* YYSpaceCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSpaceCellTableViewCell.swift; sourceTree = "<group>"; };
+		94ABFDC11F21E11F009074BB /* YYSpaceCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYSpaceCellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +439,21 @@
 		94ABFCB31F21E09B009074BB /* YeShi */ = {
 			isa = PBXGroup;
 			children = (
-				94ABFCB41F21E09B009074BB /* AppDelegate.swift */,
-				94ABFCB61F21E09B009074BB /* ViewController.swift */,
-				94ABFCB81F21E09B009074BB /* Main.storyboard */,
-				94ABFCBB1F21E09B009074BB /* Assets.xcassets */,
-				94ABFCBD1F21E09B009074BB /* LaunchScreen.storyboard */,
-				94ABFCC01F21E09B009074BB /* Info.plist */,
+				94ABFCE21F21E11F009074BB /* Assets.xcassets */,
+				94ABFCE31F21E11F009074BB /* BASE */,
+				94ABFCF51F21E11F009074BB /* Base.lproj */,
+				94ABFCF61F21E11F009074BB /* EXTENSION */,
+				94ABFD011F21E11F009074BB /* IMAGE */,
+				94ABFD151F21E11F009074BB /* Info.plist */,
+				94ABFD161F21E11F009074BB /* MAIN */,
+				94ABFD191F21E11F009074BB /* Manager */,
+				94ABFD1A1F21E11F009074BB /* MODEL */,
+				94ABFD1D1F21E11F009074BB /* OTHER */,
+				94ABFD241F21E11F009074BB /* PLIST */,
+				94ABFD281F21E11F009074BB /* PUBLIC */,
+				94ABFD4D1F21E11F009074BB /* TOOL */,
+				94ABFD521F21E11F009074BB /* VC */,
+				94ABFD801F21E11F009074BB /* VIEW */,
 			);
 			path = YeShi;
 			sourceTree = "<group>";
@@ -123,6 +474,544 @@
 				94ABFCD61F21E09B009074BB /* Info.plist */,
 			);
 			path = YeShiUITests;
+			sourceTree = "<group>";
+		};
+		94ABFCE31F21E11F009074BB /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFCE41F21E11F009074BB /* VC */,
+				94ABFCEA1F21E11F009074BB /* VIEW */,
+			);
+			path = BASE;
+			sourceTree = "<group>";
+		};
+		94ABFCE41F21E11F009074BB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFCE51F21E11F009074BB /* YYAlertViewController.swift */,
+				94ABFCE61F21E11F009074BB /* YYBaseCollectionViewController.swift */,
+				94ABFCE71F21E11F009074BB /* YYBaseImagePickerController.swift */,
+				94ABFCE81F21E11F009074BB /* YYBaseTableViewController.swift */,
+				94ABFCE91F21E11F009074BB /* YYBaseViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		94ABFCEA1F21E11F009074BB /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFCEB1F21E11F009074BB /* navigationView */,
+				94ABFCF01F21E11F009074BB /* YYBaseCollectionView.swift */,
+				94ABFCF11F21E11F009074BB /* YYBaseTableViewCell.swift */,
+				94ABFCF21F21E11F009074BB /* YYBaseTableViewFooterView.swift */,
+				94ABFCF31F21E11F009074BB /* YYBaseTableViewFooterView.xib */,
+				94ABFCF41F21E11F009074BB /* YYBaseView.swift */,
+			);
+			path = VIEW;
+			sourceTree = "<group>";
+		};
+		94ABFCEB1F21E11F009074BB /* navigationView */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFCEC1F21E11F009074BB /* YYBaseNavigationView.swift */,
+				94ABFCED1F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib */,
+				94ABFCEE1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib */,
+				94ABFCEF1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib */,
+			);
+			path = navigationView;
+			sourceTree = "<group>";
+		};
+		94ABFCF51F21E11F009074BB /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		94ABFCF61F21E11F009074BB /* EXTENSION */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFCF71F21E11F009074BB /* Bundle+Extension.swift */,
+				94ABFCF81F21E11F009074BB /* CGFloat+Extension.swift */,
+				94ABFCF91F21E11F009074BB /* NSMutableAttributedString+Extension.swift */,
+				94ABFCFA1F21E11F009074BB /* NSObject+Extension.swift */,
+				94ABFCFB1F21E11F009074BB /* String+Extension.swift */,
+				94ABFCFC1F21E11F009074BB /* UIColor+Extension.swift */,
+				94ABFCFD1F21E11F009074BB /* UIImage+Extension.swift */,
+				94ABFCFE1F21E11F009074BB /* UITableViewCell+Extension.swift */,
+				94ABFCFF1F21E11F009074BB /* UIView+Extension.swift */,
+				94ABFD001F21E11F009074BB /* URL+Extension.swift */,
+			);
+			path = EXTENSION;
+			sourceTree = "<group>";
+		};
+		94ABFD011F21E11F009074BB /* IMAGE */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD021F21E11F009074BB /* IMG_0361.jpg */,
+				94ABFD031F21E11F009074BB /* IMG_0407.jpg */,
+				94ABFD041F21E11F009074BB /* IMG_0487.jpg */,
+				94ABFD051F21E11F009074BB /* IMG_0490.jpg */,
+				94ABFD061F21E11F009074BB /* IMG_2473.jpg */,
+				94ABFD071F21E11F009074BB /* IMG_2478.jpg */,
+				94ABFD081F21E11F009074BB /* IMG_2719.jpg */,
+				94ABFD091F21E11F009074BB /* IMG_2772.jpg */,
+				94ABFD0A1F21E11F009074BB /* IMG_2787.jpg */,
+				94ABFD0B1F21E11F009074BB /* IMG_2898.jpg */,
+				94ABFD0C1F21E11F009074BB /* IMG_3026.jpg */,
+				94ABFD0D1F21E11F009074BB /* IMG_3027.jpg */,
+				94ABFD0E1F21E11F009074BB /* IMG_3065.jpg */,
+				94ABFD0F1F21E11F009074BB /* IMG_3091.jpg */,
+				94ABFD101F21E11F009074BB /* IMG_3260.JPG */,
+				94ABFD111F21E11F009074BB /* IMG_3269.JPG */,
+				94ABFD121F21E11F009074BB /* IMG_3278.jpg */,
+				94ABFD131F21E11F009074BB /* IMG_8227.JPG */,
+				94ABFD141F21E11F009074BB /* IMG_8235.JPG */,
+			);
+			path = IMAGE;
+			sourceTree = "<group>";
+		};
+		94ABFD161F21E11F009074BB /* MAIN */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD171F21E11F009074BB /* YYNavigationViewController.swift */,
+				94ABFD181F21E11F009074BB /* YYTabBarController.swift */,
+			);
+			path = MAIN;
+			sourceTree = "<group>";
+		};
+		94ABFD191F21E11F009074BB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		94ABFD1A1F21E11F009074BB /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD1B1F21E11F009074BB /* YYApplyModel.swift */,
+				94ABFD1C1F21E11F009074BB /* YYCompetitionCommentSectionModel.swift */,
+			);
+			path = MODEL;
+			sourceTree = "<group>";
+		};
+		94ABFD1D1F21E11F009074BB /* OTHER */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD1E1F21E11F009074BB /* AppDelegate+HuanXin.swift */,
+				94ABFD1F1F21E11F009074BB /* AppDelegate.swift */,
+				94ABFD201F21E11F009074BB /* HuanXin.swift */,
+				94ABFD211F21E11F009074BB /* Theme.swift */,
+				94ABFD221F21E11F009074BB /* YYHeader.h */,
+				94ABFD231F21E11F009074BB /* YYKey.swift */,
+			);
+			path = OTHER;
+			sourceTree = "<group>";
+		};
+		94ABFD241F21E11F009074BB /* PLIST */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD251F21E11F009074BB /* apply.plist */,
+				94ABFD261F21E11F009074BB /* comment.plist */,
+				94ABFD271F21E11F009074BB /* IMGroupSetting.plist */,
+			);
+			path = PLIST;
+			sourceTree = "<group>";
+		};
+		94ABFD281F21E11F009074BB /* PUBLIC */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD291F21E11F009074BB /* Alert */,
+				94ABFD361F21E11F009074BB /* Paging */,
+				94ABFD391F21E11F009074BB /* Refresh */,
+				94ABFD421F21E11F009074BB /* YYBorderLabel.swift */,
+				94ABFD431F21E11F009074BB /* YYCircleScrollView.swift */,
+				94ABFD441F21E11F009074BB /* YYDrawerTableViewCell.swift */,
+				94ABFD451F21E11F009074BB /* YYEmptyTableView.swift */,
+				94ABFD461F21E11F009074BB /* YYIconLableView.swift */,
+				94ABFD471F21E11F009074BB /* YYOnePixView.swift */,
+				94ABFD481F21E11F009074BB /* YYPlayerView.swift */,
+				94ABFD491F21E11F009074BB /* YYShotView */,
+				94ABFD4C1F21E11F009074BB /* YYWebView.swift */,
+			);
+			path = PUBLIC;
+			sourceTree = "<group>";
+		};
+		94ABFD291F21E11F009074BB /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD2A1F21E11F009074BB /* YYAlertAnimation.swift */,
+				94ABFD2B1F21E11F009074BB /* YYAlertBirthdayView.swift */,
+				94ABFD2C1F21E11F009074BB /* YYAlertBirthdayView.xib */,
+				94ABFD2D1F21E11F009074BB /* YYAlertLoadingView.swift */,
+				94ABFD2E1F21E11F009074BB /* YYAlertSelectedCell.swift */,
+				94ABFD2F1F21E11F009074BB /* YYAlertSelectedCell.xib */,
+				94ABFD301F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.swift */,
+				94ABFD311F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.xib */,
+				94ABFD321F21E11F009074BB /* YYAlertSelectedView.swift */,
+				94ABFD331F21E11F009074BB /* YYAlertTextView.swift */,
+				94ABFD341F21E11F009074BB /* YYAlertView.swift */,
+				94ABFD351F21E11F009074BB /* YYAlertWindowView.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		94ABFD361F21E11F009074BB /* Paging */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD371F21E11F009074BB /* YYPagingHeaderScrollView.swift */,
+				94ABFD381F21E11F009074BB /* YYPagingView.swift */,
+			);
+			path = Paging;
+			sourceTree = "<group>";
+		};
+		94ABFD391F21E11F009074BB /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD3A1F21E11F009074BB /* GA_AnimationRefreshHeaderView.swift */,
+				94ABFD3B1F21E11F009074BB /* GA_AnimationRefreshHeaderView.xib */,
+				94ABFD3C1F21E11F009074BB /* GA_CircleRefreshHeaderView.swift */,
+				94ABFD3D1F21E11F009074BB /* GA_LoadFooterView.swift */,
+				94ABFD3E1F21E11F009074BB /* GA_RefreshHeaderView.swift */,
+				94ABFD3F1F21E11F009074BB /* GA_RefreshOther.swift */,
+				94ABFD401F21E11F009074BB /* GA_XIBRefreshHeaderView.swift */,
+				94ABFD411F21E11F009074BB /* ScrollView+Extension.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		94ABFD491F21E11F009074BB /* YYShotView */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD4A1F21E11F009074BB /* YYShotView.swift */,
+				94ABFD4B1F21E11F009074BB /* YYShotViewButton.swift */,
+			);
+			path = YYShotView;
+			sourceTree = "<group>";
+		};
+		94ABFD4D1F21E11F009074BB /* TOOL */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD4E1F21E11F009074BB /* Compare.swift */,
+				94ABFD4F1F21E11F009074BB /* KeyPath.swift */,
+				94ABFD501F21E11F009074BB /* Protocol.swift */,
+				94ABFD511F21E11F009074BB /* YBAttributeTextTapForSwfit.swift */,
+			);
+			path = TOOL;
+			sourceTree = "<group>";
+		};
+		94ABFD521F21E11F009074BB /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD531F21E11F009074BB /* Alert */,
+				94ABFD541F21E11F009074BB /* Apply */,
+				94ABFD561F21E11F009074BB /* Event */,
+				94ABFD5A1F21E11F009074BB /* IM */,
+				94ABFD6D1F21E11F009074BB /* News */,
+				94ABFD6F1F21E11F009074BB /* Sort */,
+				94ABFD7E1F21E11F009074BB /* YYHomeViewController.swift */,
+				94ABFD7F1F21E11F009074BB /* YYMyViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		94ABFD531F21E11F009074BB /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		94ABFD541F21E11F009074BB /* Apply */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD551F21E11F009074BB /* YYApplyViewController.swift */,
+			);
+			path = Apply;
+			sourceTree = "<group>";
+		};
+		94ABFD561F21E11F009074BB /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD571F21E11F009074BB /* YYEventDetailViewController.swift */,
+				94ABFD581F21E11F009074BB /* YYIMViewController.swift */,
+				94ABFD591F21E11F009074BB /* YYYeEventViewController.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		94ABFD5A1F21E11F009074BB /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD5B1F21E11F009074BB /* BaseIM */,
+				94ABFD5D1F21E11F009074BB /* Easy */,
+				94ABFD601F21E11F009074BB /* YYIMChatGroupViewController.swift */,
+				94ABFD611F21E11F009074BB /* YYIMContactSelectionViewController.swift */,
+				94ABFD621F21E11F009074BB /* YYIMConversationViewController.swift */,
+				94ABFD631F21E11F009074BB /* YYIMCreatChatGroupViewController.swift */,
+				94ABFD641F21E11F009074BB /* YYIMCreatChatGroupViewController.xib */,
+				94ABFD651F21E11F009074BB /* YYIMCreatChatRoomViewController.swift */,
+				94ABFD661F21E11F009074BB /* YYIMCreatChatRoomViewController.xib */,
+				94ABFD671F21E11F009074BB /* YYIMFriendViewController.swift */,
+				94ABFD681F21E11F009074BB /* YYIMGroupInfoSettingViewController.swift */,
+				94ABFD691F21E11F009074BB /* YYIMGroupInfoViewController.swift */,
+				94ABFD6A1F21E11F009074BB /* YYIMGroupViewController.swift */,
+				94ABFD6B1F21E11F009074BB /* YYIMRoomViewController.swift */,
+				94ABFD6C1F21E11F009074BB /* YYIMViewController.swift */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		94ABFD5B1F21E11F009074BB /* BaseIM */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD5C1F21E11F009074BB /* YYIMBaseViewController.swift */,
+			);
+			path = BaseIM;
+			sourceTree = "<group>";
+		};
+		94ABFD5D1F21E11F009074BB /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD5E1F21E11F009074BB /* YYEaseConversationListViewController.swift */,
+				94ABFD5F1F21E11F009074BB /* YYEaseUsersListViewController.swift */,
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		94ABFD6D1F21E11F009074BB /* News */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD6E1F21E11F009074BB /* YYNewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		94ABFD6F1F21E11F009074BB /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD701F21E11F009074BB /* Activity */,
+				94ABFD721F21E11F009074BB /* Article */,
+				94ABFD741F21E11F009074BB /* Competition */,
+				94ABFD781F21E11F009074BB /* Live */,
+				94ABFD7A1F21E11F009074BB /* Photo */,
+				94ABFD7C1F21E11F009074BB /* Surrounding */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		94ABFD701F21E11F009074BB /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD711F21E11F009074BB /* YYActivityListViewController.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		94ABFD721F21E11F009074BB /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD731F21E11F009074BB /* YYArticleListViewController.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		94ABFD741F21E11F009074BB /* Competition */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD751F21E11F009074BB /* YYApplyQueryViewController.swift */,
+				94ABFD761F21E11F009074BB /* YYCompetitionDetailsViewController.swift */,
+				94ABFD771F21E11F009074BB /* YYCompetitionListViewController.swift */,
+			);
+			path = Competition;
+			sourceTree = "<group>";
+		};
+		94ABFD781F21E11F009074BB /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD791F21E11F009074BB /* YYLiveListViewController.swift */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		94ABFD7A1F21E11F009074BB /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD7B1F21E11F009074BB /* YYPhotoListViewController.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		94ABFD7C1F21E11F009074BB /* Surrounding */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD7D1F21E11F009074BB /* YYSurroundingListViewController.swift */,
+			);
+			path = Surrounding;
+			sourceTree = "<group>";
+		};
+		94ABFD801F21E11F009074BB /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD811F21E11F009074BB /* Apply */,
+				94ABFD8A1F21E11F009074BB /* Event */,
+				94ABFD8D1F21E11F009074BB /* Home */,
+				94ABFD961F21E11F009074BB /* IM */,
+				94ABFDA51F21E11F009074BB /* My */,
+				94ABFDA91F21E11F009074BB /* Sort */,
+				94ABFDC01F21E11F009074BB /* YYSpaceCellTableViewCell.swift */,
+				94ABFDC11F21E11F009074BB /* YYSpaceCellTableViewCell.xib */,
+			);
+			path = VIEW;
+			sourceTree = "<group>";
+		};
+		94ABFD811F21E11F009074BB /* Apply */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD821F21E11F009074BB /* YYApplyAddImageTableViewCell.swift */,
+				94ABFD831F21E11F009074BB /* YYApplyAddImageTableViewCell.xib */,
+				94ABFD841F21E11F009074BB /* YYApplyHeaderView.swift */,
+				94ABFD851F21E11F009074BB /* YYApplyHeaderView.xib */,
+				94ABFD861F21E11F009074BB /* YYApplySelectedTableViewCell.swift */,
+				94ABFD871F21E11F009074BB /* YYApplySelectedTableViewCell.xib */,
+				94ABFD881F21E11F009074BB /* YYApplyTextTableViewCell.swift */,
+				94ABFD891F21E11F009074BB /* YYApplyTextTableViewCell.xib */,
+			);
+			path = Apply;
+			sourceTree = "<group>";
+		};
+		94ABFD8A1F21E11F009074BB /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD8B1F21E11F009074BB /* YYEventVideoCell.swift */,
+				94ABFD8C1F21E11F009074BB /* YYEventVideoCell.xib */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		94ABFD8D1F21E11F009074BB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD8E1F21E11F009074BB /* Top */,
+				94ABFD931F21E11F009074BB /* YYHomeBasicCell.swift */,
+				94ABFD941F21E11F009074BB /* YYHomeBasicCell.xib */,
+				94ABFD951F21E11F009074BB /* YYHomeSectionView.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		94ABFD8E1F21E11F009074BB /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD8F1F21E11F009074BB /* YYHomeTopView.swift */,
+				94ABFD901F21E11F009074BB /* YYModuleSelectedCell.swift */,
+				94ABFD911F21E11F009074BB /* YYModuleSelectedCell.xib */,
+				94ABFD921F21E11F009074BB /* YYModuleSelectedView.swift */,
+			);
+			path = Top;
+			sourceTree = "<group>";
+		};
+		94ABFD961F21E11F009074BB /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFD971F21E11F009074BB /* YYConversationCell.swift */,
+				94ABFD981F21E11F009074BB /* YYConversationCell.xib */,
+				94ABFD991F21E11F009074BB /* YYIMAddFriendCell.swift */,
+				94ABFD9A1F21E11F009074BB /* YYIMAddFriendCell.xib */,
+				94ABFD9B1F21E11F009074BB /* YYIMGroupCell.swift */,
+				94ABFD9C1F21E11F009074BB /* YYIMGroupCell.xib */,
+				94ABFD9D1F21E11F009074BB /* YYIMGroupInfoCell.swift */,
+				94ABFD9E1F21E11F009074BB /* YYIMGroupInfoCell.xib */,
+				94ABFD9F1F21E11F009074BB /* YYIMGroupInfoSectionView.swift */,
+				94ABFDA01F21E11F009074BB /* YYIMGroupInfoSectionView.xib */,
+				94ABFDA11F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.swift */,
+				94ABFDA21F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.xib */,
+				94ABFDA31F21E11F009074BB /* YYIMGroupInfoSettingCell.swift */,
+				94ABFDA41F21E11F009074BB /* YYIMGroupInfoSettingCell.xib */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		94ABFDA51F21E11F009074BB /* My */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFDA61F21E11F009074BB /* YYMyBasicCell.swift */,
+				94ABFDA71F21E11F009074BB /* YYMyBasicCell.xib */,
+				94ABFDA81F21E11F009074BB /* YYMyTopView.swift */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		94ABFDA91F21E11F009074BB /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFDAA1F21E11F009074BB /* Activity(活动) */,
+				94ABFDAD1F21E11F009074BB /* Article(文章) */,
+				94ABFDAE1F21E11F009074BB /* Competition(赛事) */,
+				94ABFDBB1F21E11F009074BB /* Live(直播) */,
+				94ABFDBE1F21E11F009074BB /* Photo(照片) */,
+				94ABFDBF1F21E11F009074BB /* Surrounding(周边) */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		94ABFDAA1F21E11F009074BB /* Activity(活动) */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFDAB1F21E11F009074BB /* YYActivityListCell.swift */,
+				94ABFDAC1F21E11F009074BB /* YYActivityListCell.xib */,
+			);
+			path = "Activity(活动)";
+			sourceTree = "<group>";
+		};
+		94ABFDAD1F21E11F009074BB /* Article(文章) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Article(文章)";
+			sourceTree = "<group>";
+		};
+		94ABFDAE1F21E11F009074BB /* Competition(赛事) */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFDAF1F21E11F009074BB /* YYCompetitionCommentCell.swift */,
+				94ABFDB01F21E11F009074BB /* YYCompetitionCommentCell.xib */,
+				94ABFDB11F21E11F009074BB /* YYCompetitionCommentSectionView.swift */,
+				94ABFDB21F21E11F009074BB /* YYCompetitionCommentSectionView.xib */,
+				94ABFDB31F21E11F009074BB /* YYCompetitionDetailsBottomView.swift */,
+				94ABFDB41F21E11F009074BB /* YYCompetitionDetailsBottomView.xib */,
+				94ABFDB51F21E11F009074BB /* YYCompetitionDetailsHeaderView.swift */,
+				94ABFDB61F21E11F009074BB /* YYCompetitionDetailsHeaderView.xib */,
+				94ABFDB71F21E11F009074BB /* YYCompetitionListCell.swift */,
+				94ABFDB81F21E11F009074BB /* YYCompetitionListCell.xib */,
+				94ABFDB91F21E11F009074BB /* YYCompetitionReplyCell.swift */,
+				94ABFDBA1F21E11F009074BB /* YYCompetitionReplyCell.xib */,
+			);
+			path = "Competition(赛事)";
+			sourceTree = "<group>";
+		};
+		94ABFDBB1F21E11F009074BB /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				94ABFDBC1F21E11F009074BB /* YYLiveCollectionViewCell.swift */,
+				94ABFDBD1F21E11F009074BB /* YYLiveCollectionViewCell.xib */,
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		94ABFDBE1F21E11F009074BB /* Photo(照片) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Photo(照片)";
+			sourceTree = "<group>";
+		};
+		94ABFDBF1F21E11F009074BB /* Surrounding(周边) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Surrounding(周边)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +1082,7 @@
 				TargetAttributes = {
 					94ABFCB01F21E09B009074BB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8975PEGCVX;
 						ProvisioningStyle = Automatic;
 					};
 					94ABFCC41F21E09B009074BB = {
@@ -232,9 +1122,65 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94ABFCBF1F21E09B009074BB /* LaunchScreen.storyboard in Resources */,
-				94ABFCBC1F21E09B009074BB /* Assets.xcassets in Resources */,
-				94ABFCBA1F21E09B009074BB /* Main.storyboard in Resources */,
+				94ABFDE41F21E11F009074BB /* IMG_2898.jpg in Resources */,
+				94ABFDED1F21E11F009074BB /* IMG_8235.JPG in Resources */,
+				94ABFE541F21E11F009074BB /* YYIMGroupCell.xib in Resources */,
+				94ABFE6B1F21E11F009074BB /* YYCompetitionListCell.xib in Resources */,
+				94ABFE2A1F21E11F009074BB /* YYIMCreatChatGroupViewController.xib in Resources */,
+				94ABFDE21F21E11F009074BB /* IMG_2772.jpg in Resources */,
+				94ABFDEC1F21E11F009074BB /* IMG_8227.JPG in Resources */,
+				94ABFE0A1F21E11F009074BB /* GA_AnimationRefreshHeaderView.xib in Resources */,
+				94ABFDE91F21E11F009074BB /* IMG_3260.JPG in Resources */,
+				94ABFE521F21E11F009074BB /* YYIMAddFriendCell.xib in Resources */,
+				94ABFE6D1F21E11F009074BB /* YYCompetitionReplyCell.xib in Resources */,
+				94ABFDF91F21E11F009074BB /* comment.plist in Resources */,
+				94ABFDE51F21E11F009074BB /* IMG_3026.jpg in Resources */,
+				94ABFDC21F21E11F009074BB /* Assets.xcassets in Resources */,
+				94ABFE4A1F21E11F009074BB /* YYModuleSelectedCell.xib in Resources */,
+				94ABFE651F21E11F009074BB /* YYCompetitionCommentSectionView.xib in Resources */,
+				94ABFE631F21E11F009074BB /* YYCompetitionCommentCell.xib in Resources */,
+				94ABFDDB1F21E11F009074BB /* IMG_0361.jpg in Resources */,
+				94ABFDDD1F21E11F009074BB /* IMG_0487.jpg in Resources */,
+				94ABFE4D1F21E11F009074BB /* YYHomeBasicCell.xib in Resources */,
+				94ABFDCF1F21E11F009074BB /* YYBaseTableViewFooterView.xib in Resources */,
+				94ABFDEA1F21E11F009074BB /* IMG_3269.JPG in Resources */,
+				94ABFDDE1F21E11F009074BB /* IMG_0490.jpg in Resources */,
+				94ABFE001F21E11F009074BB /* YYAlertSelectedCell.xib in Resources */,
+				94ABFDE61F21E11F009074BB /* IMG_3027.jpg in Resources */,
+				94ABFE451F21E11F009074BB /* YYApplyTextTableViewCell.xib in Resources */,
+				94ABFE6F1F21E11F009074BB /* YYLiveCollectionViewCell.xib in Resources */,
+				94ABFE5A1F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.xib in Resources */,
+				94ABFDF81F21E11F009074BB /* apply.plist in Resources */,
+				94ABFE5E1F21E11F009074BB /* YYMyBasicCell.xib in Resources */,
+				94ABFDDF1F21E11F009074BB /* IMG_2473.jpg in Resources */,
+				94ABFDE31F21E11F009074BB /* IMG_2787.jpg in Resources */,
+				94ABFDE11F21E11F009074BB /* IMG_2719.jpg in Resources */,
+				94ABFE3F1F21E11F009074BB /* YYApplyAddImageTableViewCell.xib in Resources */,
+				94ABFE691F21E11F009074BB /* YYCompetitionDetailsHeaderView.xib in Resources */,
+				94ABFDC91F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib in Resources */,
+				94ABFE471F21E11F009074BB /* YYEventVideoCell.xib in Resources */,
+				94ABFDFA1F21E11F009074BB /* IMGroupSetting.plist in Resources */,
+				94ABFE711F21E11F009074BB /* YYSpaceCellTableViewCell.xib in Resources */,
+				94ABFE581F21E11F009074BB /* YYIMGroupInfoSectionView.xib in Resources */,
+				94ABFDEB1F21E11F009074BB /* IMG_3278.jpg in Resources */,
+				94ABFE021F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.xib in Resources */,
+				94ABFDCA1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib in Resources */,
+				94ABFE561F21E11F009074BB /* YYIMGroupInfoCell.xib in Resources */,
+				94ABFDCB1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib in Resources */,
+				94ABFE671F21E11F009074BB /* YYCompetitionDetailsBottomView.xib in Resources */,
+				94ABFDE71F21E11F009074BB /* IMG_3065.jpg in Resources */,
+				94ABFE501F21E11F009074BB /* YYConversationCell.xib in Resources */,
+				94ABFE4E1F21E11F009074BB /* YYHomeSectionView.xib in Resources */,
+				94ABFDDC1F21E11F009074BB /* IMG_0407.jpg in Resources */,
+				94ABFE5C1F21E11F009074BB /* YYIMGroupInfoSettingCell.xib in Resources */,
+				94ABFDFD1F21E11F009074BB /* YYAlertBirthdayView.xib in Resources */,
+				94ABFE611F21E11F009074BB /* YYActivityListCell.xib in Resources */,
+				94ABFE431F21E11F009074BB /* YYApplySelectedTableViewCell.xib in Resources */,
+				94ABFDE01F21E11F009074BB /* IMG_2478.jpg in Resources */,
+				94ABFDEE1F21E11F009074BB /* Info.plist in Resources */,
+				94ABFDE81F21E11F009074BB /* IMG_3091.jpg in Resources */,
+				94ABFE411F21E11F009074BB /* YYApplyHeaderView.xib in Resources */,
+				94ABFE2C1F21E11F009074BB /* YYIMCreatChatRoomViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +1205,123 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94ABFCB71F21E09B009074BB /* ViewController.swift in Sources */,
-				94ABFCB51F21E09B009074BB /* AppDelegate.swift in Sources */,
+				94ABFE081F21E11F009074BB /* YYPagingView.swift in Sources */,
+				94ABFE3E1F21E11F009074BB /* YYApplyAddImageTableViewCell.swift in Sources */,
+				94ABFE661F21E11F009074BB /* YYCompetitionDetailsBottomView.swift in Sources */,
+				94ABFDC31F21E11F009074BB /* YYAlertViewController.swift in Sources */,
+				94ABFE441F21E11F009074BB /* YYApplyTextTableViewCell.swift in Sources */,
+				94ABFE151F21E11F009074BB /* YYIconLableView.swift in Sources */,
+				94ABFE331F21E11F009074BB /* YYNewsViewController.swift in Sources */,
+				94ABFE5F1F21E11F009074BB /* YYMyTopView.swift in Sources */,
+				94ABFE1F1F21E11F009074BB /* YYApplyViewController.swift in Sources */,
+				94ABFE071F21E11F009074BB /* YYPagingHeaderScrollView.swift in Sources */,
+				94ABFDF71F21E11F009074BB /* YYKey.swift in Sources */,
+				94ABFE5D1F21E11F009074BB /* YYMyBasicCell.swift in Sources */,
+				94ABFE601F21E11F009074BB /* YYActivityListCell.swift in Sources */,
+				94ABFE2B1F21E11F009074BB /* YYIMCreatChatRoomViewController.swift in Sources */,
+				94ABFE6E1F21E11F009074BB /* YYLiveCollectionViewCell.swift in Sources */,
+				94ABFE131F21E11F009074BB /* YYDrawerTableViewCell.swift in Sources */,
+				94ABFE531F21E11F009074BB /* YYIMGroupCell.swift in Sources */,
+				94ABFDCE1F21E11F009074BB /* YYBaseTableViewFooterView.swift in Sources */,
+				94ABFE1E1F21E11F009074BB /* YBAttributeTextTapForSwfit.swift in Sources */,
+				94ABFE061F21E11F009074BB /* YYAlertWindowView.swift in Sources */,
+				94ABFE461F21E11F009074BB /* YYEventVideoCell.swift in Sources */,
+				94ABFE011F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.swift in Sources */,
+				94ABFE221F21E11F009074BB /* YYYeEventViewController.swift in Sources */,
+				94ABFE311F21E11F009074BB /* YYIMRoomViewController.swift in Sources */,
+				94ABFE291F21E11F009074BB /* YYIMCreatChatGroupViewController.swift in Sources */,
+				94ABFE241F21E11F009074BB /* YYEaseConversationListViewController.swift in Sources */,
+				94ABFE3A1F21E11F009074BB /* YYPhotoListViewController.swift in Sources */,
+				94ABFE371F21E11F009074BB /* YYCompetitionDetailsViewController.swift in Sources */,
+				94ABFE381F21E11F009074BB /* YYCompetitionListViewController.swift in Sources */,
+				94ABFDD21F21E11F009074BB /* CGFloat+Extension.swift in Sources */,
+				94ABFDD31F21E11F009074BB /* NSMutableAttributedString+Extension.swift in Sources */,
+				94ABFE171F21E11F009074BB /* YYPlayerView.swift in Sources */,
+				94ABFDFC1F21E11F009074BB /* YYAlertBirthdayView.swift in Sources */,
+				94ABFE1C1F21E11F009074BB /* KeyPath.swift in Sources */,
+				94ABFE401F21E11F009074BB /* YYApplyHeaderView.swift in Sources */,
+				94ABFE3C1F21E11F009074BB /* YYHomeViewController.swift in Sources */,
+				94ABFE091F21E11F009074BB /* GA_AnimationRefreshHeaderView.swift in Sources */,
+				94ABFE491F21E11F009074BB /* YYModuleSelectedCell.swift in Sources */,
+				94ABFDC81F21E11F009074BB /* YYBaseNavigationView.swift in Sources */,
+				94ABFDEF1F21E11F009074BB /* YYNavigationViewController.swift in Sources */,
+				94ABFDD11F21E11F009074BB /* Bundle+Extension.swift in Sources */,
+				94ABFDD01F21E11F009074BB /* YYBaseView.swift in Sources */,
+				94ABFDFB1F21E11F009074BB /* YYAlertAnimation.swift in Sources */,
+				94ABFDF41F21E11F009074BB /* AppDelegate.swift in Sources */,
+				94ABFE351F21E11F009074BB /* YYArticleListViewController.swift in Sources */,
+				94ABFDD61F21E11F009074BB /* UIColor+Extension.swift in Sources */,
+				94ABFE271F21E11F009074BB /* YYIMContactSelectionViewController.swift in Sources */,
+				94ABFE261F21E11F009074BB /* YYIMChatGroupViewController.swift in Sources */,
+				94ABFE701F21E11F009074BB /* YYSpaceCellTableViewCell.swift in Sources */,
+				94ABFE301F21E11F009074BB /* YYIMGroupViewController.swift in Sources */,
+				94ABFE051F21E11F009074BB /* YYAlertView.swift in Sources */,
+				94ABFE0D1F21E11F009074BB /* GA_RefreshHeaderView.swift in Sources */,
+				94ABFE321F21E11F009074BB /* YYIMViewController.swift in Sources */,
+				94ABFE231F21E11F009074BB /* YYIMBaseViewController.swift in Sources */,
+				94ABFE4B1F21E11F009074BB /* YYModuleSelectedView.swift in Sources */,
+				94ABFDC41F21E11F009074BB /* YYBaseCollectionViewController.swift in Sources */,
+				94ABFDCC1F21E11F009074BB /* YYBaseCollectionView.swift in Sources */,
+				94ABFE6A1F21E11F009074BB /* YYCompetitionListCell.swift in Sources */,
+				94ABFE341F21E11F009074BB /* YYActivityListViewController.swift in Sources */,
+				94ABFE201F21E11F009074BB /* YYEventDetailViewController.swift in Sources */,
+				94ABFE6C1F21E11F009074BB /* YYCompetitionReplyCell.swift in Sources */,
+				94ABFE3B1F21E11F009074BB /* YYSurroundingListViewController.swift in Sources */,
+				94ABFE121F21E11F009074BB /* YYCircleScrollView.swift in Sources */,
+				94ABFDF51F21E11F009074BB /* HuanXin.swift in Sources */,
+				94ABFE1A1F21E11F009074BB /* YYWebView.swift in Sources */,
+				94ABFE3D1F21E11F009074BB /* YYMyViewController.swift in Sources */,
+				94ABFE031F21E11F009074BB /* YYAlertSelectedView.swift in Sources */,
+				94ABFDF61F21E11F009074BB /* Theme.swift in Sources */,
+				94ABFE181F21E11F009074BB /* YYShotView.swift in Sources */,
+				94ABFE0B1F21E11F009074BB /* GA_CircleRefreshHeaderView.swift in Sources */,
+				94ABFDCD1F21E11F009074BB /* YYBaseTableViewCell.swift in Sources */,
+				94ABFDFF1F21E11F009074BB /* YYAlertSelectedCell.swift in Sources */,
+				94ABFDF11F21E11F009074BB /* YYApplyModel.swift in Sources */,
+				94ABFE2D1F21E11F009074BB /* YYIMFriendViewController.swift in Sources */,
+				94ABFE591F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.swift in Sources */,
+				94ABFDC71F21E11F009074BB /* YYBaseViewController.swift in Sources */,
+				94ABFE2E1F21E11F009074BB /* YYIMGroupInfoSettingViewController.swift in Sources */,
+				94ABFE251F21E11F009074BB /* YYEaseUsersListViewController.swift in Sources */,
+				94ABFDD91F21E11F009074BB /* UIView+Extension.swift in Sources */,
+				94ABFDF21F21E11F009074BB /* YYCompetitionCommentSectionModel.swift in Sources */,
+				94ABFE5B1F21E11F009074BB /* YYIMGroupInfoSettingCell.swift in Sources */,
+				94ABFDFE1F21E11F009074BB /* YYAlertLoadingView.swift in Sources */,
+				94ABFDDA1F21E11F009074BB /* URL+Extension.swift in Sources */,
+				94ABFE551F21E11F009074BB /* YYIMGroupInfoCell.swift in Sources */,
+				94ABFE4F1F21E11F009074BB /* YYConversationCell.swift in Sources */,
+				94ABFE391F21E11F009074BB /* YYLiveListViewController.swift in Sources */,
+				94ABFE621F21E11F009074BB /* YYCompetitionCommentCell.swift in Sources */,
+				94ABFE101F21E11F009074BB /* ScrollView+Extension.swift in Sources */,
+				94ABFE191F21E11F009074BB /* YYShotViewButton.swift in Sources */,
+				94ABFDF31F21E11F009074BB /* AppDelegate+HuanXin.swift in Sources */,
+				94ABFDD71F21E11F009074BB /* UIImage+Extension.swift in Sources */,
+				94ABFDD81F21E11F009074BB /* UITableViewCell+Extension.swift in Sources */,
+				94ABFE041F21E11F009074BB /* YYAlertTextView.swift in Sources */,
+				94ABFDC61F21E11F009074BB /* YYBaseTableViewController.swift in Sources */,
+				94ABFE1B1F21E11F009074BB /* Compare.swift in Sources */,
+				94ABFE361F21E11F009074BB /* YYApplyQueryViewController.swift in Sources */,
+				94ABFE421F21E11F009074BB /* YYApplySelectedTableViewCell.swift in Sources */,
+				94ABFE161F21E11F009074BB /* YYOnePixView.swift in Sources */,
+				94ABFDC51F21E11F009074BB /* YYBaseImagePickerController.swift in Sources */,
+				94ABFDD51F21E11F009074BB /* String+Extension.swift in Sources */,
+				94ABFE0F1F21E11F009074BB /* GA_XIBRefreshHeaderView.swift in Sources */,
+				94ABFE571F21E11F009074BB /* YYIMGroupInfoSectionView.swift in Sources */,
+				94ABFDD41F21E11F009074BB /* NSObject+Extension.swift in Sources */,
+				94ABFE511F21E11F009074BB /* YYIMAddFriendCell.swift in Sources */,
+				94ABFDF01F21E11F009074BB /* YYTabBarController.swift in Sources */,
+				94ABFE681F21E11F009074BB /* YYCompetitionDetailsHeaderView.swift in Sources */,
+				94ABFE481F21E11F009074BB /* YYHomeTopView.swift in Sources */,
+				94ABFE211F21E11F009074BB /* YYIMViewController.swift in Sources */,
+				94ABFE641F21E11F009074BB /* YYCompetitionCommentSectionView.swift in Sources */,
+				94ABFE4C1F21E11F009074BB /* YYHomeBasicCell.swift in Sources */,
+				94ABFE0C1F21E11F009074BB /* GA_LoadFooterView.swift in Sources */,
+				94ABFE141F21E11F009074BB /* YYEmptyTableView.swift in Sources */,
+				94ABFE111F21E11F009074BB /* YYBorderLabel.swift in Sources */,
+				94ABFE2F1F21E11F009074BB /* YYIMGroupInfoViewController.swift in Sources */,
+				94ABFE281F21E11F009074BB /* YYIMConversationViewController.swift in Sources */,
+				94ABFE0E1F21E11F009074BB /* GA_RefreshOther.swift in Sources */,
+				94ABFE1D1F21E11F009074BB /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +1355,6 @@
 			targetProxy = 94ABFCD11F21E09B009074BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		94ABFCB81F21E09B009074BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94ABFCB91F21E09B009074BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		94ABFCBD1F21E09B009074BB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94ABFCBE1F21E09B009074BB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		94ABFCD71F21E09B009074BB /* Debug */ = {
@@ -412,6 +1454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8975PEGCVX;
 				INFOPLIST_FILE = YeShi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jianan.YeShi;
@@ -424,6 +1467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8975PEGCVX;
 				INFOPLIST_FILE = YeShi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jianan.YeShi;
