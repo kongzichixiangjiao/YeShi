@@ -93,6 +93,5 @@ extension YYIMGroupViewController {
         default:
             break
         }
-        
     }
 }
