@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import EaseUILite
+
+enum YYEventShotViewList: String {
+    case creatGroup = "创建群组", addFriend = "添加好友", presentStepNumber = "送步数"
+}
 
 class YYYeEventViewController: YYBaseTableViewController {
 
@@ -14,46 +19,77 @@ class YYYeEventViewController: YYBaseTableViewController {
         super.viewDidLoad()
         
         initNavigationView()
+        
+//        let groups = EMClient.shared().groupManager.getJoinedGroups()
+//        self.dataSource = groups!
+//        self.tableView.reloadData()
+        
+        let pageView = YYPagingView(frame: CGRect(x: 0, y: NavigationViewHeight, width: MainScreenWidth, height: MainScreenHeight - NavigationViewHeight), vcs: [YYNewsViewController(), YYNewsViewController(), YYNewsViewController(), YYNewsViewController(), YYNewsViewController(), YYNewsViewController()]) { (tag) in
+            print("tag: \(tag)")
+        }
+        self.view.addSubview(pageView)
     }
     
     func initNavigationView() {
         self.myTitle = "野事er"
         self.isHiddenLeftButton = true
+        self.setupRightButton(type: .add)
     }
     
     override func initTableView() {
-        isShowTabbar = true
-        tableViewFrameType = .normal64
-        registerNibWithIdentifier(kYYEventVideoCell)
+//        isShowTabbar = true
+//        tableViewFrameType = .normal64
+//        registerNibWithIdentifier(YYIMGroupCell.identifier)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    override func clickedRightButtonAction(sender: UIButton) {
+        YYShotView.show(point: sender, items: [YYEventShotViewList.creatGroup.rawValue, YYEventShotViewList.addFriend.rawValue, YYEventShotViewList.presentStepNumber.rawValue]) {
+            [weak self] title in
+            if let weakSelf = self {
+                weakSelf.clickedShotViewList(title: title)
+            }
+        }
+    }
+    
+    func clickedShotViewList(title: String) {
+        switch title {
+        case YYEventShotViewList.creatGroup.rawValue:
+            self.push(vc: YYIMCreatChatGroupViewController())
+            break
+        case YYEventShotViewList.addFriend.rawValue:
+            break
+        case YYEventShotViewList.presentStepNumber.rawValue:
+            break
+        default:
+            break 
+        }
+    }
 }
 
 extension YYYeEventViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: kYYEventVideoCell)
-        return cell!
+        let cell = tableView.dequeueReusableCell(withIdentifier: YYIMGroupCell.identifier) as! YYIMGroupCell
+        let group = self.dataSource[indexPath.row] as! EMGroup
+        cell.titleLabel.text = group.subject
+        return cell
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return self.dataSource.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 210
+        return 60
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if (indexPath.row == 0) {
-            self.navigationController?.pushViewController(YYIMViewcontroller(), animated: true)
-            return
-        }
-        let vc = YYEventDetailViewController()
-        self.navigationController?.pushViewController(vc, animated: true)
+        let vc = YYIMGroupInfoViewController()
+        vc.groupId = (self.dataSource[indexPath.row] as! EMGroup).groupId
+        self.push(vc: vc)
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

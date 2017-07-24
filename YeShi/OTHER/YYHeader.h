@@ -13,7 +13,7 @@
 
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
-#import "EaseUI/EaseUI.h"
+#import "EaseUILite/EaseUI.h"
 #endif
 
 #endif /* YYHeader_h */

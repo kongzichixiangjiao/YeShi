@@ -91,7 +91,7 @@ class YYApplyViewController: YYBaseTableViewController {
     }
     
     private func initBackView() {
-        let imgV = UIImageView(image: UIImage(named: "IMG_8235.JPG"))
+        let imgV = UIImageView(image: UIImage(named: ""))
         imgV.frame = CGRect(x: 0, y: NavigationViewHeight, width: MainScreenWidth, height: 350.0)
         imgV.clipsToBounds = false
         imgV.contentMode = .scaleAspectFill
@@ -103,8 +103,8 @@ class YYApplyViewController: YYBaseTableViewController {
         imgV.addSubview(effectView)
     }
     
-    override func clickedRightButtonAction() {
-        print("222")
+    override func clickedRightButtonAction(sender: UIButton) {
+
     }
     
     deinit {

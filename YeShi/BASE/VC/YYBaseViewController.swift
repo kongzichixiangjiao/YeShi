@@ -13,6 +13,7 @@ class YYBaseViewController: UIViewController {
     var myTitle: String? {
         didSet {
             navigationView.myTitle = myTitle
+            self.title = myTitle
         }
     }
     
@@ -62,6 +63,10 @@ class YYBaseViewController: UIViewController {
     public func setupRightButton(type: YYBaseNavigationViewRightButtonTyep) {
         navigationView.setupRightButton(type: type)
     }
+    
+    public func setupOtherRightButton() {
+        navigationView.setupOtherRightButton()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -97,7 +102,11 @@ class YYBaseViewController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     
-    func clickedRightButtonAction() {
+    func clickedRightButtonAction(sender: UIButton) {
+        
+    }
+    
+    func clickedNavigationViewOtherRightButton(sender: UIButton) {
         
     }
     
@@ -113,7 +122,7 @@ extension YYBaseViewController: YYBaseNavigationViewProtocol {
         self.navigationController?.popViewController(animated: true)
     }
     
-    func clickedNavigationViewRightButton() {
-        clickedRightButtonAction()
+    func clickedNavigationViewRightButton(sender: UIButton) {
+        clickedRightButtonAction(sender: sender)
     }
 }

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import EaseUI
+import EaseUILite
 
 class YYIMBaseViewController: EaseMessageViewController {
     

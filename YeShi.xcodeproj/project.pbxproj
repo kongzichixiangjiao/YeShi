@@ -16,7 +16,7 @@
 		94ABFDC61F21E11F009074BB /* YYBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCE81F21E11F009074BB /* YYBaseTableViewController.swift */; };
 		94ABFDC71F21E11F009074BB /* YYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCE91F21E11F009074BB /* YYBaseViewController.swift */; };
 		94ABFDC81F21E11F009074BB /* YYBaseNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCEC1F21E11F009074BB /* YYBaseNavigationView.swift */; };
-		94ABFDC91F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCED1F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib */; };
+		94ABFDC91F21E11F009074BB /* YYBaseNavigationViewTextButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCED1F21E11F009074BB /* YYBaseNavigationViewTextButton.xib */; };
 		94ABFDCA1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCEE1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib */; };
 		94ABFDCB1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFCEF1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib */; };
 		94ABFDCC1F21E11F009074BB /* YYBaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCF01F21E11F009074BB /* YYBaseCollectionView.swift */; };
@@ -34,25 +34,6 @@
 		94ABFDD81F21E11F009074BB /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCFE1F21E11F009074BB /* UITableViewCell+Extension.swift */; };
 		94ABFDD91F21E11F009074BB /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFCFF1F21E11F009074BB /* UIView+Extension.swift */; };
 		94ABFDDA1F21E11F009074BB /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD001F21E11F009074BB /* URL+Extension.swift */; };
-		94ABFDDB1F21E11F009074BB /* IMG_0361.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD021F21E11F009074BB /* IMG_0361.jpg */; };
-		94ABFDDC1F21E11F009074BB /* IMG_0407.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD031F21E11F009074BB /* IMG_0407.jpg */; };
-		94ABFDDD1F21E11F009074BB /* IMG_0487.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD041F21E11F009074BB /* IMG_0487.jpg */; };
-		94ABFDDE1F21E11F009074BB /* IMG_0490.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD051F21E11F009074BB /* IMG_0490.jpg */; };
-		94ABFDDF1F21E11F009074BB /* IMG_2473.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD061F21E11F009074BB /* IMG_2473.jpg */; };
-		94ABFDE01F21E11F009074BB /* IMG_2478.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD071F21E11F009074BB /* IMG_2478.jpg */; };
-		94ABFDE11F21E11F009074BB /* IMG_2719.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD081F21E11F009074BB /* IMG_2719.jpg */; };
-		94ABFDE21F21E11F009074BB /* IMG_2772.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD091F21E11F009074BB /* IMG_2772.jpg */; };
-		94ABFDE31F21E11F009074BB /* IMG_2787.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0A1F21E11F009074BB /* IMG_2787.jpg */; };
-		94ABFDE41F21E11F009074BB /* IMG_2898.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0B1F21E11F009074BB /* IMG_2898.jpg */; };
-		94ABFDE51F21E11F009074BB /* IMG_3026.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0C1F21E11F009074BB /* IMG_3026.jpg */; };
-		94ABFDE61F21E11F009074BB /* IMG_3027.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0D1F21E11F009074BB /* IMG_3027.jpg */; };
-		94ABFDE71F21E11F009074BB /* IMG_3065.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0E1F21E11F009074BB /* IMG_3065.jpg */; };
-		94ABFDE81F21E11F009074BB /* IMG_3091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD0F1F21E11F009074BB /* IMG_3091.jpg */; };
-		94ABFDE91F21E11F009074BB /* IMG_3260.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD101F21E11F009074BB /* IMG_3260.JPG */; };
-		94ABFDEA1F21E11F009074BB /* IMG_3269.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD111F21E11F009074BB /* IMG_3269.JPG */; };
-		94ABFDEB1F21E11F009074BB /* IMG_3278.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD121F21E11F009074BB /* IMG_3278.jpg */; };
-		94ABFDEC1F21E11F009074BB /* IMG_8227.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD131F21E11F009074BB /* IMG_8227.JPG */; };
-		94ABFDED1F21E11F009074BB /* IMG_8235.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD141F21E11F009074BB /* IMG_8235.JPG */; };
 		94ABFDEE1F21E11F009074BB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD151F21E11F009074BB /* Info.plist */; };
 		94ABFDEF1F21E11F009074BB /* YYNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD171F21E11F009074BB /* YYNavigationViewController.swift */; };
 		94ABFDF01F21E11F009074BB /* YYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD181F21E11F009074BB /* YYTabBarController.swift */; };
@@ -104,14 +85,10 @@
 		94ABFE1E1F21E11F009074BB /* YBAttributeTextTapForSwfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD511F21E11F009074BB /* YBAttributeTextTapForSwfit.swift */; };
 		94ABFE1F1F21E11F009074BB /* YYApplyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD551F21E11F009074BB /* YYApplyViewController.swift */; };
 		94ABFE201F21E11F009074BB /* YYEventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD571F21E11F009074BB /* YYEventDetailViewController.swift */; };
-		94ABFE211F21E11F009074BB /* YYIMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD581F21E11F009074BB /* YYIMViewController.swift */; };
 		94ABFE221F21E11F009074BB /* YYYeEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD591F21E11F009074BB /* YYYeEventViewController.swift */; };
 		94ABFE231F21E11F009074BB /* YYIMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD5C1F21E11F009074BB /* YYIMBaseViewController.swift */; };
 		94ABFE241F21E11F009074BB /* YYEaseConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD5E1F21E11F009074BB /* YYEaseConversationListViewController.swift */; };
 		94ABFE251F21E11F009074BB /* YYEaseUsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD5F1F21E11F009074BB /* YYEaseUsersListViewController.swift */; };
-		94ABFE261F21E11F009074BB /* YYIMChatGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD601F21E11F009074BB /* YYIMChatGroupViewController.swift */; };
-		94ABFE271F21E11F009074BB /* YYIMContactSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD611F21E11F009074BB /* YYIMContactSelectionViewController.swift */; };
-		94ABFE281F21E11F009074BB /* YYIMConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD621F21E11F009074BB /* YYIMConversationViewController.swift */; };
 		94ABFE291F21E11F009074BB /* YYIMCreatChatGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD631F21E11F009074BB /* YYIMCreatChatGroupViewController.swift */; };
 		94ABFE2A1F21E11F009074BB /* YYIMCreatChatGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFD641F21E11F009074BB /* YYIMCreatChatGroupViewController.xib */; };
 		94ABFE2B1F21E11F009074BB /* YYIMCreatChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD651F21E11F009074BB /* YYIMCreatChatRoomViewController.swift */; };
@@ -121,7 +98,6 @@
 		94ABFE2F1F21E11F009074BB /* YYIMGroupInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD691F21E11F009074BB /* YYIMGroupInfoViewController.swift */; };
 		94ABFE301F21E11F009074BB /* YYIMGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD6A1F21E11F009074BB /* YYIMGroupViewController.swift */; };
 		94ABFE311F21E11F009074BB /* YYIMRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD6B1F21E11F009074BB /* YYIMRoomViewController.swift */; };
-		94ABFE321F21E11F009074BB /* YYIMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD6C1F21E11F009074BB /* YYIMViewController.swift */; };
 		94ABFE331F21E11F009074BB /* YYNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD6E1F21E11F009074BB /* YYNewsViewController.swift */; };
 		94ABFE341F21E11F009074BB /* YYActivityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD711F21E11F009074BB /* YYActivityListViewController.swift */; };
 		94ABFE351F21E11F009074BB /* YYArticleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFD731F21E11F009074BB /* YYArticleListViewController.swift */; };
@@ -185,6 +161,12 @@
 		94ABFE6F1F21E11F009074BB /* YYLiveCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDBD1F21E11F009074BB /* YYLiveCollectionViewCell.xib */; };
 		94ABFE701F21E11F009074BB /* YYSpaceCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ABFDC01F21E11F009074BB /* YYSpaceCellTableViewCell.swift */; };
 		94ABFE711F21E11F009074BB /* YYSpaceCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94ABFDC11F21E11F009074BB /* YYSpaceCellTableViewCell.xib */; };
+		94EFB2F61F21EA3A00315FAB /* YYBaseNavigationViewImageButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94EFB2F51F21EA3A00315FAB /* YYBaseNavigationViewImageButton.xib */; };
+		94EFB2F81F21F0E700315FAB /* YYIMContactSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EFB2F71F21F0E700315FAB /* YYIMContactSelectionViewController.swift */; };
+		94EFB2FE1F21F18400315FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EFB2FA1F21F18400315FAB /* LaunchScreen.storyboard */; };
+		94EFB2FF1F21F18400315FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EFB2FC1F21F18400315FAB /* Main.storyboard */; };
+		94EFB3011F21F43700315FAB /* HuanXinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EFB3001F21F43700315FAB /* HuanXinManager.swift */; };
+		9B2CF2DF0DA53350D92E634D /* Pods_YeShi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECB64BCD49185B7816B373E /* Pods_YeShi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -205,6 +187,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C619AF7BD59CD779E0B8683 /* Pods-YeShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeShi/Pods-YeShi.release.xcconfig"; sourceTree = "<group>"; };
+		4ECB64BCD49185B7816B373E /* Pods_YeShi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YeShi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8ED913430A5E007DB26BED /* Pods-YeShi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeShi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeShi/Pods-YeShi.debug.xcconfig"; sourceTree = "<group>"; };
 		94ABFCB11F21E09B009074BB /* YeShi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeShi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ABFCC51F21E09B009074BB /* YeShiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeShiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94ABFCC91F21E09B009074BB /* YeShiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeShiTests.swift; sourceTree = "<group>"; };
@@ -219,7 +204,7 @@
 		94ABFCE81F21E11F009074BB /* YYBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseTableViewController.swift; sourceTree = "<group>"; };
 		94ABFCE91F21E11F009074BB /* YYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseViewController.swift; sourceTree = "<group>"; };
 		94ABFCEC1F21E11F009074BB /* YYBaseNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseNavigationView.swift; sourceTree = "<group>"; };
-		94ABFCED1F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseNavigationViewFinishedButton.xib; sourceTree = "<group>"; };
+		94ABFCED1F21E11F009074BB /* YYBaseNavigationViewTextButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseNavigationViewTextButton.xib; sourceTree = "<group>"; };
 		94ABFCEE1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseNavigationViewIMGroupDetailsButton.xib; sourceTree = "<group>"; };
 		94ABFCEF1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseNavigationViewServiceButton.xib; sourceTree = "<group>"; };
 		94ABFCF01F21E11F009074BB /* YYBaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYBaseCollectionView.swift; sourceTree = "<group>"; };
@@ -237,26 +222,7 @@
 		94ABFCFE1F21E11F009074BB /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
 		94ABFCFF1F21E11F009074BB /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		94ABFD001F21E11F009074BB /* URL+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
-		94ABFD021F21E11F009074BB /* IMG_0361.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0361.jpg; sourceTree = "<group>"; };
-		94ABFD031F21E11F009074BB /* IMG_0407.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0407.jpg; sourceTree = "<group>"; };
-		94ABFD041F21E11F009074BB /* IMG_0487.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0487.jpg; sourceTree = "<group>"; };
-		94ABFD051F21E11F009074BB /* IMG_0490.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0490.jpg; sourceTree = "<group>"; };
-		94ABFD061F21E11F009074BB /* IMG_2473.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2473.jpg; sourceTree = "<group>"; };
-		94ABFD071F21E11F009074BB /* IMG_2478.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2478.jpg; sourceTree = "<group>"; };
-		94ABFD081F21E11F009074BB /* IMG_2719.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2719.jpg; sourceTree = "<group>"; };
-		94ABFD091F21E11F009074BB /* IMG_2772.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2772.jpg; sourceTree = "<group>"; };
-		94ABFD0A1F21E11F009074BB /* IMG_2787.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2787.jpg; sourceTree = "<group>"; };
-		94ABFD0B1F21E11F009074BB /* IMG_2898.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2898.jpg; sourceTree = "<group>"; };
-		94ABFD0C1F21E11F009074BB /* IMG_3026.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3026.jpg; sourceTree = "<group>"; };
-		94ABFD0D1F21E11F009074BB /* IMG_3027.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3027.jpg; sourceTree = "<group>"; };
-		94ABFD0E1F21E11F009074BB /* IMG_3065.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3065.jpg; sourceTree = "<group>"; };
-		94ABFD0F1F21E11F009074BB /* IMG_3091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3091.jpg; sourceTree = "<group>"; };
-		94ABFD101F21E11F009074BB /* IMG_3260.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3260.JPG; sourceTree = "<group>"; };
-		94ABFD111F21E11F009074BB /* IMG_3269.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3269.JPG; sourceTree = "<group>"; };
-		94ABFD121F21E11F009074BB /* IMG_3278.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3278.jpg; sourceTree = "<group>"; };
-		94ABFD131F21E11F009074BB /* IMG_8227.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8227.JPG; sourceTree = "<group>"; };
-		94ABFD141F21E11F009074BB /* IMG_8235.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8235.JPG; sourceTree = "<group>"; };
-		94ABFD151F21E11F009074BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94ABFD151F21E11F009074BB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YeShi/Info.plist; sourceTree = "<group>"; };
 		94ABFD171F21E11F009074BB /* YYNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNavigationViewController.swift; sourceTree = "<group>"; };
 		94ABFD181F21E11F009074BB /* YYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTabBarController.swift; sourceTree = "<group>"; };
 		94ABFD1B1F21E11F009074BB /* YYApplyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplyModel.swift; sourceTree = "<group>"; };
@@ -308,14 +274,10 @@
 		94ABFD511F21E11F009074BB /* YBAttributeTextTapForSwfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBAttributeTextTapForSwfit.swift; sourceTree = "<group>"; };
 		94ABFD551F21E11F009074BB /* YYApplyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYApplyViewController.swift; sourceTree = "<group>"; };
 		94ABFD571F21E11F009074BB /* YYEventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYEventDetailViewController.swift; sourceTree = "<group>"; };
-		94ABFD581F21E11F009074BB /* YYIMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMViewController.swift; sourceTree = "<group>"; };
 		94ABFD591F21E11F009074BB /* YYYeEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYYeEventViewController.swift; sourceTree = "<group>"; };
 		94ABFD5C1F21E11F009074BB /* YYIMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMBaseViewController.swift; sourceTree = "<group>"; };
 		94ABFD5E1F21E11F009074BB /* YYEaseConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYEaseConversationListViewController.swift; sourceTree = "<group>"; };
 		94ABFD5F1F21E11F009074BB /* YYEaseUsersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYEaseUsersListViewController.swift; sourceTree = "<group>"; };
-		94ABFD601F21E11F009074BB /* YYIMChatGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMChatGroupViewController.swift; sourceTree = "<group>"; };
-		94ABFD611F21E11F009074BB /* YYIMContactSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMContactSelectionViewController.swift; sourceTree = "<group>"; };
-		94ABFD621F21E11F009074BB /* YYIMConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMConversationViewController.swift; sourceTree = "<group>"; };
 		94ABFD631F21E11F009074BB /* YYIMCreatChatGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMCreatChatGroupViewController.swift; sourceTree = "<group>"; };
 		94ABFD641F21E11F009074BB /* YYIMCreatChatGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYIMCreatChatGroupViewController.xib; sourceTree = "<group>"; };
 		94ABFD651F21E11F009074BB /* YYIMCreatChatRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMCreatChatRoomViewController.swift; sourceTree = "<group>"; };
@@ -325,7 +287,6 @@
 		94ABFD691F21E11F009074BB /* YYIMGroupInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupInfoViewController.swift; sourceTree = "<group>"; };
 		94ABFD6A1F21E11F009074BB /* YYIMGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMGroupViewController.swift; sourceTree = "<group>"; };
 		94ABFD6B1F21E11F009074BB /* YYIMRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMRoomViewController.swift; sourceTree = "<group>"; };
-		94ABFD6C1F21E11F009074BB /* YYIMViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMViewController.swift; sourceTree = "<group>"; };
 		94ABFD6E1F21E11F009074BB /* YYNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYNewsViewController.swift; sourceTree = "<group>"; };
 		94ABFD711F21E11F009074BB /* YYActivityListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYActivityListViewController.swift; sourceTree = "<group>"; };
 		94ABFD731F21E11F009074BB /* YYArticleListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYArticleListViewController.swift; sourceTree = "<group>"; };
@@ -389,6 +350,11 @@
 		94ABFDBD1F21E11F009074BB /* YYLiveCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYLiveCollectionViewCell.xib; sourceTree = "<group>"; };
 		94ABFDC01F21E11F009074BB /* YYSpaceCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYSpaceCellTableViewCell.swift; sourceTree = "<group>"; };
 		94ABFDC11F21E11F009074BB /* YYSpaceCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYSpaceCellTableViewCell.xib; sourceTree = "<group>"; };
+		94EFB2F51F21EA3A00315FAB /* YYBaseNavigationViewImageButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YYBaseNavigationViewImageButton.xib; sourceTree = "<group>"; };
+		94EFB2F71F21F0E700315FAB /* YYIMContactSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYIMContactSelectionViewController.swift; sourceTree = "<group>"; };
+		94EFB2FB1F21F18400315FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94EFB2FD1F21F18400315FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		94EFB3001F21F43700315FAB /* HuanXinManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuanXinManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +362,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2CF2DF0DA53350D92E634D /* Pods_YeShi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,9 +387,12 @@
 			isa = PBXGroup;
 			children = (
 				94ABFCB31F21E09B009074BB /* YeShi */,
+				94ABFD151F21E11F009074BB /* Info.plist */,
 				94ABFCC81F21E09B009074BB /* YeShiTests */,
 				94ABFCD31F21E09B009074BB /* YeShiUITests */,
 				94ABFCB21F21E09B009074BB /* Products */,
+				989C7F2415B32AA674BE5440 /* Pods */,
+				EDCC7441854E8CD156FE364C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -439,12 +409,10 @@
 		94ABFCB31F21E09B009074BB /* YeShi */ = {
 			isa = PBXGroup;
 			children = (
+				94EFB2F91F21F18400315FAB /* Base.lproj */,
 				94ABFCE21F21E11F009074BB /* Assets.xcassets */,
 				94ABFCE31F21E11F009074BB /* BASE */,
-				94ABFCF51F21E11F009074BB /* Base.lproj */,
 				94ABFCF61F21E11F009074BB /* EXTENSION */,
-				94ABFD011F21E11F009074BB /* IMAGE */,
-				94ABFD151F21E11F009074BB /* Info.plist */,
 				94ABFD161F21E11F009074BB /* MAIN */,
 				94ABFD191F21E11F009074BB /* Manager */,
 				94ABFD1A1F21E11F009074BB /* MODEL */,
@@ -514,18 +482,12 @@
 			isa = PBXGroup;
 			children = (
 				94ABFCEC1F21E11F009074BB /* YYBaseNavigationView.swift */,
-				94ABFCED1F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib */,
+				94ABFCED1F21E11F009074BB /* YYBaseNavigationViewTextButton.xib */,
+				94EFB2F51F21EA3A00315FAB /* YYBaseNavigationViewImageButton.xib */,
 				94ABFCEE1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib */,
 				94ABFCEF1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib */,
 			);
 			path = navigationView;
-			sourceTree = "<group>";
-		};
-		94ABFCF51F21E11F009074BB /* Base.lproj */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		94ABFCF61F21E11F009074BB /* EXTENSION */ = {
@@ -545,32 +507,6 @@
 			path = EXTENSION;
 			sourceTree = "<group>";
 		};
-		94ABFD011F21E11F009074BB /* IMAGE */ = {
-			isa = PBXGroup;
-			children = (
-				94ABFD021F21E11F009074BB /* IMG_0361.jpg */,
-				94ABFD031F21E11F009074BB /* IMG_0407.jpg */,
-				94ABFD041F21E11F009074BB /* IMG_0487.jpg */,
-				94ABFD051F21E11F009074BB /* IMG_0490.jpg */,
-				94ABFD061F21E11F009074BB /* IMG_2473.jpg */,
-				94ABFD071F21E11F009074BB /* IMG_2478.jpg */,
-				94ABFD081F21E11F009074BB /* IMG_2719.jpg */,
-				94ABFD091F21E11F009074BB /* IMG_2772.jpg */,
-				94ABFD0A1F21E11F009074BB /* IMG_2787.jpg */,
-				94ABFD0B1F21E11F009074BB /* IMG_2898.jpg */,
-				94ABFD0C1F21E11F009074BB /* IMG_3026.jpg */,
-				94ABFD0D1F21E11F009074BB /* IMG_3027.jpg */,
-				94ABFD0E1F21E11F009074BB /* IMG_3065.jpg */,
-				94ABFD0F1F21E11F009074BB /* IMG_3091.jpg */,
-				94ABFD101F21E11F009074BB /* IMG_3260.JPG */,
-				94ABFD111F21E11F009074BB /* IMG_3269.JPG */,
-				94ABFD121F21E11F009074BB /* IMG_3278.jpg */,
-				94ABFD131F21E11F009074BB /* IMG_8227.JPG */,
-				94ABFD141F21E11F009074BB /* IMG_8235.JPG */,
-			);
-			path = IMAGE;
-			sourceTree = "<group>";
-		};
 		94ABFD161F21E11F009074BB /* MAIN */ = {
 			isa = PBXGroup;
 			children = (
@@ -583,6 +519,7 @@
 		94ABFD191F21E11F009074BB /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				94EFB3001F21F43700315FAB /* HuanXinManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -735,7 +672,6 @@
 			isa = PBXGroup;
 			children = (
 				94ABFD571F21E11F009074BB /* YYEventDetailViewController.swift */,
-				94ABFD581F21E11F009074BB /* YYIMViewController.swift */,
 				94ABFD591F21E11F009074BB /* YYYeEventViewController.swift */,
 			);
 			path = Event;
@@ -746,9 +682,6 @@
 			children = (
 				94ABFD5B1F21E11F009074BB /* BaseIM */,
 				94ABFD5D1F21E11F009074BB /* Easy */,
-				94ABFD601F21E11F009074BB /* YYIMChatGroupViewController.swift */,
-				94ABFD611F21E11F009074BB /* YYIMContactSelectionViewController.swift */,
-				94ABFD621F21E11F009074BB /* YYIMConversationViewController.swift */,
 				94ABFD631F21E11F009074BB /* YYIMCreatChatGroupViewController.swift */,
 				94ABFD641F21E11F009074BB /* YYIMCreatChatGroupViewController.xib */,
 				94ABFD651F21E11F009074BB /* YYIMCreatChatRoomViewController.swift */,
@@ -758,7 +691,7 @@
 				94ABFD691F21E11F009074BB /* YYIMGroupInfoViewController.swift */,
 				94ABFD6A1F21E11F009074BB /* YYIMGroupViewController.swift */,
 				94ABFD6B1F21E11F009074BB /* YYIMRoomViewController.swift */,
-				94ABFD6C1F21E11F009074BB /* YYIMViewController.swift */,
+				94EFB2F71F21F0E700315FAB /* YYIMContactSelectionViewController.swift */,
 			);
 			path = IM;
 			sourceTree = "<group>";
@@ -1014,6 +947,32 @@
 			path = "Surrounding(周边)";
 			sourceTree = "<group>";
 		};
+		94EFB2F91F21F18400315FAB /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				94EFB2FA1F21F18400315FAB /* LaunchScreen.storyboard */,
+				94EFB2FC1F21F18400315FAB /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		989C7F2415B32AA674BE5440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B8ED913430A5E007DB26BED /* Pods-YeShi.debug.xcconfig */,
+				1C619AF7BD59CD779E0B8683 /* Pods-YeShi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDCC7441854E8CD156FE364C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ECB64BCD49185B7816B373E /* Pods_YeShi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1021,9 +980,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94ABFCD91F21E09B009074BB /* Build configuration list for PBXNativeTarget "YeShi" */;
 			buildPhases = (
+				2146738906A50655E6C7736E /* [CP] Check Pods Manifest.lock */,
 				94ABFCAD1F21E09B009074BB /* Sources */,
 				94ABFCAE1F21E09B009074BB /* Frameworks */,
 				94ABFCAF1F21E09B009074BB /* Resources */,
+				6CEC54D95D512A0BC6E86ED5 /* [CP] Embed Pods Frameworks */,
+				7E8113358D3C10C0A2258C14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1122,63 +1084,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94ABFDE41F21E11F009074BB /* IMG_2898.jpg in Resources */,
-				94ABFDED1F21E11F009074BB /* IMG_8235.JPG in Resources */,
 				94ABFE541F21E11F009074BB /* YYIMGroupCell.xib in Resources */,
 				94ABFE6B1F21E11F009074BB /* YYCompetitionListCell.xib in Resources */,
 				94ABFE2A1F21E11F009074BB /* YYIMCreatChatGroupViewController.xib in Resources */,
-				94ABFDE21F21E11F009074BB /* IMG_2772.jpg in Resources */,
-				94ABFDEC1F21E11F009074BB /* IMG_8227.JPG in Resources */,
 				94ABFE0A1F21E11F009074BB /* GA_AnimationRefreshHeaderView.xib in Resources */,
-				94ABFDE91F21E11F009074BB /* IMG_3260.JPG in Resources */,
 				94ABFE521F21E11F009074BB /* YYIMAddFriendCell.xib in Resources */,
 				94ABFE6D1F21E11F009074BB /* YYCompetitionReplyCell.xib in Resources */,
 				94ABFDF91F21E11F009074BB /* comment.plist in Resources */,
-				94ABFDE51F21E11F009074BB /* IMG_3026.jpg in Resources */,
 				94ABFDC21F21E11F009074BB /* Assets.xcassets in Resources */,
 				94ABFE4A1F21E11F009074BB /* YYModuleSelectedCell.xib in Resources */,
 				94ABFE651F21E11F009074BB /* YYCompetitionCommentSectionView.xib in Resources */,
 				94ABFE631F21E11F009074BB /* YYCompetitionCommentCell.xib in Resources */,
-				94ABFDDB1F21E11F009074BB /* IMG_0361.jpg in Resources */,
-				94ABFDDD1F21E11F009074BB /* IMG_0487.jpg in Resources */,
 				94ABFE4D1F21E11F009074BB /* YYHomeBasicCell.xib in Resources */,
 				94ABFDCF1F21E11F009074BB /* YYBaseTableViewFooterView.xib in Resources */,
-				94ABFDEA1F21E11F009074BB /* IMG_3269.JPG in Resources */,
-				94ABFDDE1F21E11F009074BB /* IMG_0490.jpg in Resources */,
+				94EFB2FE1F21F18400315FAB /* LaunchScreen.storyboard in Resources */,
 				94ABFE001F21E11F009074BB /* YYAlertSelectedCell.xib in Resources */,
-				94ABFDE61F21E11F009074BB /* IMG_3027.jpg in Resources */,
 				94ABFE451F21E11F009074BB /* YYApplyTextTableViewCell.xib in Resources */,
 				94ABFE6F1F21E11F009074BB /* YYLiveCollectionViewCell.xib in Resources */,
 				94ABFE5A1F21E11F009074BB /* YYIMGroupInfoSettingButtonCell.xib in Resources */,
+				94EFB2FF1F21F18400315FAB /* Main.storyboard in Resources */,
 				94ABFDF81F21E11F009074BB /* apply.plist in Resources */,
 				94ABFE5E1F21E11F009074BB /* YYMyBasicCell.xib in Resources */,
-				94ABFDDF1F21E11F009074BB /* IMG_2473.jpg in Resources */,
-				94ABFDE31F21E11F009074BB /* IMG_2787.jpg in Resources */,
-				94ABFDE11F21E11F009074BB /* IMG_2719.jpg in Resources */,
 				94ABFE3F1F21E11F009074BB /* YYApplyAddImageTableViewCell.xib in Resources */,
 				94ABFE691F21E11F009074BB /* YYCompetitionDetailsHeaderView.xib in Resources */,
-				94ABFDC91F21E11F009074BB /* YYBaseNavigationViewFinishedButton.xib in Resources */,
+				94ABFDC91F21E11F009074BB /* YYBaseNavigationViewTextButton.xib in Resources */,
 				94ABFE471F21E11F009074BB /* YYEventVideoCell.xib in Resources */,
 				94ABFDFA1F21E11F009074BB /* IMGroupSetting.plist in Resources */,
 				94ABFE711F21E11F009074BB /* YYSpaceCellTableViewCell.xib in Resources */,
 				94ABFE581F21E11F009074BB /* YYIMGroupInfoSectionView.xib in Resources */,
-				94ABFDEB1F21E11F009074BB /* IMG_3278.jpg in Resources */,
 				94ABFE021F21E11F009074BB /* YYAlertSelectedTableViewHeaderView.xib in Resources */,
 				94ABFDCA1F21E11F009074BB /* YYBaseNavigationViewIMGroupDetailsButton.xib in Resources */,
 				94ABFE561F21E11F009074BB /* YYIMGroupInfoCell.xib in Resources */,
 				94ABFDCB1F21E11F009074BB /* YYBaseNavigationViewServiceButton.xib in Resources */,
 				94ABFE671F21E11F009074BB /* YYCompetitionDetailsBottomView.xib in Resources */,
-				94ABFDE71F21E11F009074BB /* IMG_3065.jpg in Resources */,
+				94EFB2F61F21EA3A00315FAB /* YYBaseNavigationViewImageButton.xib in Resources */,
 				94ABFE501F21E11F009074BB /* YYConversationCell.xib in Resources */,
 				94ABFE4E1F21E11F009074BB /* YYHomeSectionView.xib in Resources */,
-				94ABFDDC1F21E11F009074BB /* IMG_0407.jpg in Resources */,
 				94ABFE5C1F21E11F009074BB /* YYIMGroupInfoSettingCell.xib in Resources */,
 				94ABFDFD1F21E11F009074BB /* YYAlertBirthdayView.xib in Resources */,
 				94ABFE611F21E11F009074BB /* YYActivityListCell.xib in Resources */,
 				94ABFE431F21E11F009074BB /* YYApplySelectedTableViewCell.xib in Resources */,
-				94ABFDE01F21E11F009074BB /* IMG_2478.jpg in Resources */,
 				94ABFDEE1F21E11F009074BB /* Info.plist in Resources */,
-				94ABFDE81F21E11F009074BB /* IMG_3091.jpg in Resources */,
 				94ABFE411F21E11F009074BB /* YYApplyHeaderView.xib in Resources */,
 				94ABFE2C1F21E11F009074BB /* YYIMCreatChatRoomViewController.xib in Resources */,
 			);
@@ -1199,6 +1145,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2146738906A50655E6C7736E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CEC54D95D512A0BC6E86ED5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YeShi/Pods-YeShi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E8113358D3C10C0A2258C14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YeShi/Pods-YeShi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94ABFCAD1F21E09B009074BB /* Sources */ = {
@@ -1221,6 +1215,7 @@
 				94ABFE2B1F21E11F009074BB /* YYIMCreatChatRoomViewController.swift in Sources */,
 				94ABFE6E1F21E11F009074BB /* YYLiveCollectionViewCell.swift in Sources */,
 				94ABFE131F21E11F009074BB /* YYDrawerTableViewCell.swift in Sources */,
+				94EFB2F81F21F0E700315FAB /* YYIMContactSelectionViewController.swift in Sources */,
 				94ABFE531F21E11F009074BB /* YYIMGroupCell.swift in Sources */,
 				94ABFDCE1F21E11F009074BB /* YYBaseTableViewFooterView.swift in Sources */,
 				94ABFE1E1F21E11F009074BB /* YBAttributeTextTapForSwfit.swift in Sources */,
@@ -1251,19 +1246,17 @@
 				94ABFDF41F21E11F009074BB /* AppDelegate.swift in Sources */,
 				94ABFE351F21E11F009074BB /* YYArticleListViewController.swift in Sources */,
 				94ABFDD61F21E11F009074BB /* UIColor+Extension.swift in Sources */,
-				94ABFE271F21E11F009074BB /* YYIMContactSelectionViewController.swift in Sources */,
-				94ABFE261F21E11F009074BB /* YYIMChatGroupViewController.swift in Sources */,
 				94ABFE701F21E11F009074BB /* YYSpaceCellTableViewCell.swift in Sources */,
 				94ABFE301F21E11F009074BB /* YYIMGroupViewController.swift in Sources */,
 				94ABFE051F21E11F009074BB /* YYAlertView.swift in Sources */,
 				94ABFE0D1F21E11F009074BB /* GA_RefreshHeaderView.swift in Sources */,
-				94ABFE321F21E11F009074BB /* YYIMViewController.swift in Sources */,
 				94ABFE231F21E11F009074BB /* YYIMBaseViewController.swift in Sources */,
 				94ABFE4B1F21E11F009074BB /* YYModuleSelectedView.swift in Sources */,
 				94ABFDC41F21E11F009074BB /* YYBaseCollectionViewController.swift in Sources */,
 				94ABFDCC1F21E11F009074BB /* YYBaseCollectionView.swift in Sources */,
 				94ABFE6A1F21E11F009074BB /* YYCompetitionListCell.swift in Sources */,
 				94ABFE341F21E11F009074BB /* YYActivityListViewController.swift in Sources */,
+				94EFB3011F21F43700315FAB /* HuanXinManager.swift in Sources */,
 				94ABFE201F21E11F009074BB /* YYEventDetailViewController.swift in Sources */,
 				94ABFE6C1F21E11F009074BB /* YYCompetitionReplyCell.swift in Sources */,
 				94ABFE3B1F21E11F009074BB /* YYSurroundingListViewController.swift in Sources */,
@@ -1312,14 +1305,12 @@
 				94ABFDF01F21E11F009074BB /* YYTabBarController.swift in Sources */,
 				94ABFE681F21E11F009074BB /* YYCompetitionDetailsHeaderView.swift in Sources */,
 				94ABFE481F21E11F009074BB /* YYHomeTopView.swift in Sources */,
-				94ABFE211F21E11F009074BB /* YYIMViewController.swift in Sources */,
 				94ABFE641F21E11F009074BB /* YYCompetitionCommentSectionView.swift in Sources */,
 				94ABFE4C1F21E11F009074BB /* YYHomeBasicCell.swift in Sources */,
 				94ABFE0C1F21E11F009074BB /* GA_LoadFooterView.swift in Sources */,
 				94ABFE141F21E11F009074BB /* YYEmptyTableView.swift in Sources */,
 				94ABFE111F21E11F009074BB /* YYBorderLabel.swift in Sources */,
 				94ABFE2F1F21E11F009074BB /* YYIMGroupInfoViewController.swift in Sources */,
-				94ABFE281F21E11F009074BB /* YYIMConversationViewController.swift in Sources */,
 				94ABFE0E1F21E11F009074BB /* GA_RefreshOther.swift in Sources */,
 				94ABFE1D1F21E11F009074BB /* Protocol.swift in Sources */,
 			);
@@ -1355,6 +1346,25 @@
 			targetProxy = 94ABFCD11F21E09B009074BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94EFB2FA1F21F18400315FAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94EFB2FB1F21F18400315FAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		94EFB2FC1F21F18400315FAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94EFB2FD1F21F18400315FAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		94ABFCD71F21E09B009074BB /* Debug */ = {
@@ -1398,11 +1408,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/$(PROJECT_NAME)/OTHER/YYHeader.h";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/OTHER/YYHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1442,9 +1454,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/$(PROJECT_NAME)/OTHER/YYHeader.h";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/OTHER/YYHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1452,9 +1466,12 @@
 		};
 		94ABFCDA1F21E09B009074BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8ED913430A5E007DB26BED /* Pods-YeShi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8975PEGCVX;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = YeShi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jianan.YeShi;
@@ -1465,9 +1482,12 @@
 		};
 		94ABFCDB1F21E09B009074BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C619AF7BD59CD779E0B8683 /* Pods-YeShi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8975PEGCVX;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = YeShi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jianan.YeShi;
@@ -1549,6 +1569,7 @@
 				94ABFCDB1F21E09B009074BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94ABFCDC1F21E09B009074BB /* Build configuration list for PBXNativeTarget "YeShiTests" */ = {
 			isa = XCConfigurationList;
@@ -1557,6 +1578,7 @@
 				94ABFCDE1F21E09B009074BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94ABFCDF1F21E09B009074BB /* Build configuration list for PBXNativeTarget "YeShiUITests" */ = {
 			isa = XCConfigurationList;
@@ -1565,6 +1587,7 @@
 				94ABFCE11F21E09B009074BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_YeShi {
+  umbrella header "Pods-YeShi-umbrella.h"
+
+  export *
+  module * { export * }
+}

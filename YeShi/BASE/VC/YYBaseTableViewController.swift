@@ -12,6 +12,7 @@ enum TableViewFrameType: CGFloat {
     case normal0 = 0
     case normal20 = 20
     case normal64 = 64
+    case normal108 = 108
 }
 
 public var MainScreenWidth = UIScreen.main.bounds.width
@@ -22,6 +23,8 @@ class YYBaseTableViewController: YYBaseViewController {
     public var dataSource: [Any] = []
     
     public var isShowTabbar: Bool = false
+    
+    public var showSearchBar: Bool = false 
     
     public var tableViewFrameType: TableViewFrameType! {
         didSet {
@@ -67,6 +70,10 @@ class YYBaseTableViewController: YYBaseViewController {
     }
     
     func initTableView() {
+        
+    }
+    
+    func textFieldShouldReturn(text: String) {
         
     }
 

@@ -12,8 +12,11 @@ import Foundation
 struct HuanXin {
     static let key: String = "58895347#yueye"
     
-    static let userId: String = "9202"
+    static let userId: String = "I001"
+//    static let userId: String = "I002"
     static let password: String = "123456"
+    
+    static let groupId: String = ""
 }
 /*
 应用标识(AppKey)	58895347#yueye

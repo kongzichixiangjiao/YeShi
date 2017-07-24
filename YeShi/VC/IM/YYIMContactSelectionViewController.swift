@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import EaseUI
+import EaseUILite
 
 class YYIMContactSelectionViewController: YYBaseTableViewController {
 
@@ -58,6 +58,7 @@ extension YYIMContactSelectionViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let error = EMClient.shared().contactManager.addContact(self.dataSource[indexPath.row] as! String, message: "加加加！") else {
             self.view.ga_showView(text: "成功添加好友", deplay: 1)
+            self.view.ga_showLoading()
             return
         }
         print("error: \(error)")

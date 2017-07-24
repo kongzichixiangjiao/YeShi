@@ -9,7 +9,7 @@
 import UIKit
 
 enum YYBaseNavigationViewRightButtonTyep: String {
-    case service = "nav_service", finished = "finished"
+    case service = "nav_service", finished = "finished", imSetting = "im_setting", normal = "normal", add = "nav_add"
 }
 
 @objc
@@ -17,10 +17,13 @@ protocol YYBaseNavigationViewProtocol: NSObjectProtocol {
     func back()
     func back(_ model: Any?)
     @objc optional
-    func clickedNavigationViewRightButton()
+    func clickedNavigationViewRightButton(sender: UIButton)
 }
 
 class YYBaseNavigationView: YYBaseView {
+    
+    static let height: CGFloat = 64
+    private let space: CGFloat = 10
     
     weak var myDelegate: YYBaseNavigationViewProtocol?
     
@@ -50,6 +53,12 @@ class YYBaseNavigationView: YYBaseView {
                 break
             case .service:
                 self.rightButton!.setImage(self.rightButton!.imageView?.image, for: rightButtonState!)
+                break
+            case .normal:
+                break
+            case .imSetting:
+                break
+            case .add:
                 break
             }
         }
@@ -81,7 +90,7 @@ class YYBaseNavigationView: YYBaseView {
     
     func rightButtonAction(sender: UIButton) {
         
-        myDelegate?.clickedNavigationViewRightButton!()
+        myDelegate?.clickedNavigationViewRightButton!(sender: sender)
     }
     
     func backAction(sender: UIButton) {
@@ -127,25 +136,36 @@ class YYBaseNavigationView: YYBaseView {
         var b: UIButton
         switch type {
         case .finished:
-            b = "YYBaseNavigationViewFinishedButton".xibLoadView() as! UIButton
-            b.frame = CGRect(x: self.frame.size.width - YYBaseNavigationView.bW - 30, y: self.frame.size.height - YYBaseNavigationView.bH, width: YYBaseNavigationView.bW + 30, height: YYBaseNavigationView.bH)
+            b = "YYBaseNavigationViewTextButton".xibLoadView() as! UIButton
             b.isEnabled = false
             break
         case .service:
             b = "YYBaseNavigationViewServiceButton".xibLoadView() as! UIButton
-            b.frame = CGRect(x: self.frame.size.width - YYBaseNavigationView.bW - 30, y: self.frame.size.height - YYBaseNavigationView.bH, width: YYBaseNavigationView.bW + 30, height: YYBaseNavigationView.bH)
+            break
+        case .imSetting:
+            b = "YYBaseNavigationViewImageButton".xibLoadView() as! UIButton
+            b.setImage(UIImage(named: type.rawValue), for: .normal)
+            break
+        case .normal:
+            b = "YYBaseNavigationViewImageButton".xibLoadView() as! UIButton
+            break
+        case .add:
+            b = "YYBaseNavigationViewImageButton".xibLoadView() as! UIButton
+            b.setImage(UIImage(named: type.rawValue), for: .normal)
             break
         }
-        
+        b.frame = CGRect(x: self.frame.size.width - YYBaseNavigationView.bW - space, y: self.frame.size.height - YYBaseNavigationView.bH, width: YYBaseNavigationView.bW, height: YYBaseNavigationView.bH)
         b.addTarget(self, action: #selector(rightButtonAction(sender:)), for: .touchUpInside)
         self.addSubview(b)
         
         self.rightButton = b
     }
     
+    func setupOtherRightButton() {
+        
+    }
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    
 }

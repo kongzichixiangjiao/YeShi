@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import EaseUILite
 
 class YYIMFriendViewController: YYBaseTableViewController {
     override func viewDidLoad() {

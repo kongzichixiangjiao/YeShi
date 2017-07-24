@@ -6,6 +6,8 @@ target 'YeShi’ do
 pod 'HandyJSON', '~> 1.7.2'
 pod 'ReactiveSwift'
 
+
 pod 'HyphenateLite'
-pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
+pod 'EaseUILite', :git =>'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git', :tag => '3.3.2'
+
 end 

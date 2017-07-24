@@ -45,10 +45,19 @@ extension UIView: AlertTypeProtocol {
             
         }
     }
-
-    func ga_showView(text: String) {
+    
+    func ga_showView(text: String, deplay: Double = 0) {
         setup(type: .text)
         showView(text: text)
+        if deplay != 0 {
+            let queue = DispatchQueue.global(qos: .default)
+            queue.asyncAfter(deadline: DispatchTime.now() + Double(Int64(deplay * 1000 * 1000000)) / Double(NSEC_PER_SEC), execute: {
+                [weak self] in
+                if let weakSelf = self {
+                    weakSelf.ga_hideTextView()
+                }
+            })
+        }
     }
     
     func ga_hideTextView() {
@@ -80,7 +89,7 @@ extension UIView: AlertTypeProtocol {
         setup(type: .loading)
         showLoadingView()
     }
-
+    
     public func ga_hideLoading() {
         hideLoadingView()
     }

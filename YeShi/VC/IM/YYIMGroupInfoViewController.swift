@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import EaseUILite
 
 class YYIMGroupInfoViewController: YYBaseTableViewController {
     
@@ -21,8 +22,8 @@ class YYIMGroupInfoViewController: YYBaseTableViewController {
         super.viewDidLoad()
         
         self.myTitle = "群详情"
+        
         self.setupRightButton(type: .imSetting)
-        self.setupOtherRightButton()
         
         requestGroupInfo()
     }
@@ -84,11 +85,6 @@ class YYIMGroupInfoViewController: YYBaseTableViewController {
         vc.group = self.group
         self.push(vc: vc)
     }
-    
-    override func clickedNavigationViewOtherRightButton(sender: UIButton) {
-        self.push(vc: YYIMContactSelectionViewController())
-    }
-    
     func addMemberAction() {
         let occupants = [self.group.owner, self.group.adminList, self.group.memberList] as [Any]
         let vc = YYIMContactSelectionViewController()

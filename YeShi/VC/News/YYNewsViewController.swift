@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import EaseUILite
 
 class YYNewsViewController: YYBaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.myTitle = "消息"
+        self.isHiddenLeftButton = true
+        self.tableView.yy_empty(.noData, alertTitle: "暂无消息")
         EMClient.shared().contactManager.add(self, delegateQueue: nil)
     }
     
@@ -91,6 +95,7 @@ extension YYNewsViewController: EMContactManagerDelegate {
     func friendRequestDidReceive(fromUser aUsername: String!, message aMessage: String!) {
         self.dataSource.append(aUsername)
         self.tableView.reloadData()
+        self.tableView.yy_emptyType = .noEmpty
         
     }
 }

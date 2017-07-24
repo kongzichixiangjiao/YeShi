@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import EaseUILite
 
 extension AppDelegate {
     
@@ -18,6 +18,7 @@ extension AppDelegate {
         EMClient.shared().initializeSDK(with: options)
         
         hx_regist()
+        hx_login()
     }
     
     func hx_applicationDidEnterBackground(_ application: UIApplication) {
@@ -29,10 +30,24 @@ extension AppDelegate {
     }
     
     private func hx_regist() {
-        guard let error = EMClient.shared().register(withUsername: HuanXin.userId, password: HuanXin.password) else {
-            print("注册成功！")
-            return
+        HXManager.hx_register {
+            [weak self] success in
+            if let weakSelf = self {
+                if success {
+                    weakSelf.window?.ga_showView(text: "注册成功", deplay: 1.22)
+                }
+            }
         }
-        print("code: \(error.code)", " ", "errorDescription: \(error.errorDescription)")
+    }
+    
+    private func hx_login() {
+        HXManager.hx_login {
+            [weak self] success in
+            if let weakSelf = self {
+                if success {
+                    weakSelf.window?.ga_showView(text: "登陆成功", deplay: 1.22)
+                }
+            }
+        }
     }
 }

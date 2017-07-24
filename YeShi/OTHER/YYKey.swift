@@ -9,8 +9,9 @@
 import UIKit
 
 class YYKey {
-
-//    "23872755"
+    static let name = "name"
+    static let type = "type"
+    static let quiteGroup = "quiteGroup"
     
     
     
